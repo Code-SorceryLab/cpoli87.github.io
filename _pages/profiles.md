@@ -19,8 +19,8 @@ profiles:
       <p>Your City, State 12345</p>
 
   - align: left
-    image: prof_pic.jpg
-    content: about_cristiano.md
+    image: 
+    content: about_someone.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Test</p>
