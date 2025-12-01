@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Optimizing 2D Physics: Spatial Hashing
+title: Optimizing 2D Physics Spatial Hashing
 date: 2025-11-30 16:40:16
-tags: gamedev 2d collision spatial-hashing
+tags: gamedev
 author: al
 ---
 
