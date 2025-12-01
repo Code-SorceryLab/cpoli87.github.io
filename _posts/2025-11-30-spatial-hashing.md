@@ -2,11 +2,8 @@
 layout: post
 title: Optimizing 2D Physics: Spatial Hashing
 date: 2025-11-30 16:40:16
-description: march & april, looking forward to summer
 tags: gamedev 2d collision spatial-hashing
-categories: lab
-author: Al
-draft: false
+author: al
 ---
 
 # Optimizing 2D Physics: Spatial Hashing in PEAK
