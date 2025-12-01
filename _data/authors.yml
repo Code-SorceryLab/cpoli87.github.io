@@ -1,10 +1,7 @@
 # _data/authors.yml
-tarnished:
-  name: Tarnished
-  title: Prof. of CS
-  url: https://example.com
-  avatar: /assets/img/tarnished.jpg
+cristiano:
+  name: Cristiano Politowski
+  title: Professor of Computer Science
 
 al:
   name: Al
-  url: https://example.com/al
