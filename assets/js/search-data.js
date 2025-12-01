@@ -77,6 +77,17 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
+      },{id: "post-12-reasons-why-game-development-is-software-development-or-is-it",
+        
+          title: "12 Reasons Why Game Development IS Software Development! Or is it?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/press-reset-review-1/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
