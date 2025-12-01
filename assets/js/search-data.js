@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-",
+        },{id: "post-optimizing-2d-physics-spatial-hashing",
         
-          title: "",
+          title: "Optimizing 2D Physics Spatial Hashing",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-11-30-spatial-hashing/";
+            window.location.href = "/blog/2025/spatial-hashing/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
