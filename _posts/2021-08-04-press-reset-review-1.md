@@ -1,6 +1,9 @@
 ---
+layout: post
 title: '12 Reasons Why Game Development IS Software Development! Or is it?'
 date: 2021-08-04 11:19:40
+author: cristiano
+tags: book
 ---
 
 **Book Review: Press Reset: Ruin and Recovery in the Video Game Industry by Jason Schreier**
