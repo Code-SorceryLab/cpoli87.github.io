@@ -2,11 +2,9 @@
 layout: post
 title: Optimizing 2D Physics Spatial Hashing
 date: 2025-11-30 16:40:16
-tags: gamedev
+tags: gamedev tech
 author: al
 ---
-
-# Optimizing 2D Physics: Spatial Hashing in PEAK
 
 In 2D platformers, collision detection is the silent killer of performance. Checking every object against every other object results in O<sub>n</sub><sup>2</sup> complexity, which quickly bottlenecks the CPU as the world grows.
 

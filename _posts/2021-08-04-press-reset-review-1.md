@@ -3,7 +3,7 @@ layout: post
 title: '12 Reasons Why Game Development IS Software Development! Or is it?'
 date: 2021-08-04 11:19:40
 author: cristiano
-tags: book
+tags: opinion review
 ---
 
 **Book Review: Press Reset: Ruin and Recovery in the Video Game Industry by Jason Schreier**
@@ -78,12 +78,12 @@ Similar thing also happens in traditional software development. For example, new
 This is from a developer. A lead game designer. I found this quote very humble. Clearly he is doing that just because he loves it. Not for money or status. It is against all rules of business. Also, it seems that most of the greed comes from publisher, managers, and non-developers stakeholders.
 
 ### #8. Traditional Software VS Game Industry (money wise)
-> “A person doing a similar job outside of the games industry is going to be paid more,” Reyna said. “Going back to being that came with a pay bump and benefits. “I was making $12 an hour during my time [at Irrational],” Lease said. “Now I’m working in educational software making $31 an hour.”
+> “A person doing a similar job outside of the games industry is going to be paid more,” Reyna said. “Going back to being that came with a pay bump and benefits. “I was making \$12 an hour during my time [at Irrational],” Lease said. “Now I’m working in educational software making \$31 an hour.”
 
-Oof. What a difference. Irrational was a big studio. Even though, $31 compared to $12... It says it all. This is, of course, in the US market. A quick check in the [Linkedin](https://www.linkedin.com/salary) shows similar trends. I wonder if it is the same in other parts of the world.
+Oof. What a difference. Irrational was a big studio. Even though,\$31 compared to\$12... It says it all. This is, of course, in the US market. A quick check in the [Linkedin](https://www.linkedin.com/salary) shows similar trends. I wonder if it is the same in other parts of the world.
 
 ### #9. Cost of running a Game Studio
->[the cost of the game studio] hovered around $16,000 a person per month, a number that included salary and other expenses. At that estimate, a staff of one hundred people would cost more than $19 million a year.
+>[the cost of the game studio] hovered around \$16,000 a person per month, a number that included salary and other expenses. At that estimate, a staff of one hundred people would cost more than \$19 million a year.
 
 Not cheap at all. If you consider that you need at least 3 years for any (polished) AAA game, you understand that this is, indeed, a risk business. 
 
@@ -133,9 +133,4 @@ The second part of the quote is something that hit me hard. The peer pressure to
 > “I had such a clear ownership over what I was doing,” she said. “When you have that ownership, the crunch doesn’t sting as much.”
 
 On thing is to work hard for someone else. Another is for yourself. We note that in this testimony from an independent developer. Apparently, working 16 hours in pursue of your dream is not that bad. Or is it?
-
-
----
-
-_About me: I'm a Ph.D. student in Software Engineering studying the video-game industry. Please, take a look a [some of my publications](/publications)._ 
 

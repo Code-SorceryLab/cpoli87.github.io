@@ -35,7 +35,7 @@ orcid_id: 0000-0002-0206-1056 # your ORCID ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
+rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: B8qnQe0AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -52,7 +52,7 @@ scholar_userid: B8qnQe0AAAAJ # your Google Scholar ID
 x_username: crispolito87 # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: # can be png, svg, jpg
-  title: Ontario Tech University - Computer Science Faculty Page
-  url: https://science.ontariotechu.ca/computer-science/people/undergraduate-faculty/cristiano-politowski.php
+# custom_social: # can be any name here other than the ones already defined above
+#   logo: # can be png, svg, jpg
+#   title: Ontario Tech University - Computer Science Faculty Page
+#   url: https://science.ontariotechu.ca/computer-science/people/undergraduate-faculty/cristiano-politowski.php

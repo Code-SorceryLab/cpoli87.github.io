@@ -1,11 +1,12 @@
 ---
-title: "Greed is NOT good"
+layout: post
+title: "greedisgood"
 date: 2021-07-07
-draft: false
-tags:
-  - games
-  - opinion
+author: cristiano
+tags: gameindustry opinion
 ---
+
+__`greedisgood` is the code to get more money on the game__
 
 War craft 3 Reforged just went out and it was not what fans were expecting. Basically [Blizzard showed something and not delivering](https://www.youtube.com/watch?v=kwG5ct900B0), even after [postponing the final release some months](https://www.hardwarezone.com.sg/tech-news-warcraft-3-reforged-delayed-to-2020).
 
@@ -25,12 +26,6 @@ In the same event they show the WC3 reforged and it looked good and promising. T
 
 Considering that the models and animations were outsourced and the team behind the remaster were/is small, it is clear that Blizzard, as company, does not want to put much effort and money on it, considering that the ROI will be small.
 
-Lets think from Blizzard's perspective:
-
-* [Boss] We have a game that has a very specific niche and the great majority of the players are from China. The RTS golden age is over. Why should we invest money and years of development to remaster WC3?
-* [Smart employee of the month] What about we put new high definition models  and sell skins similar to Dota 2 and League of Legends?
-* [Boss] WE DON'T TALK ABOUT DOTA 2 HERE! But it is a good idea, take 5 developers and this bag of money. Do it.
-
 WC3 Reforged was made aiming the Chinese market mimicking what the movie industry is doing. Which is acceptable. The problem is that not even them are happy with the actual state of the game.
 
 It seems that they got the models, replaced the old ones using the same engine, and that's it. SHIP IT! But seriously, jokes aside, for sure the small classic team made some improvements, but look like they underestimate the problem of reusing an old engines and refactoring and extending and old code base.
@@ -41,6 +36,5 @@ More patches are coming for sure and the game will improve, but how long will it
 
 So far the player are at full speed in the rage train, asking refunds and [down voting the Metacritic note](https://www.metacritic.com/game/pc/warcraft-iii-reforged). We will need to wait until the dust settle and the train slow down to see how Blizzard will handle this situation.
 
-PS.: As a kind reminder to myself, consider three times before pre-ordering something.
+As a kind reminder to myself, consider three times before pre-ordering something.
 
-__`greedisgood` is the code to get more money on the game__
