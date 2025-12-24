@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-19'
+  last_updated: '2025-12-24'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
     citations: 7
@@ -66,7 +66,7 @@ papers:
     title: "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)| 979-8-3503-0506-7/23/$31.00\xA9 2023 IEEE| DOI: 10.1109/SCAM59687. 2023.00040"
     year: Unknown Year
   B8qnQe0AAAAJ:UebtZRa9Y70C:
-    citations: 57
+    citations: 58
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
@@ -86,7 +86,7 @@ papers:
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 91
+    citations: 92
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:Zph67rFs4hoC:
@@ -114,7 +114,7 @@ papers:
     title: 'On the Need for Reproducibility Guidelines for Open-Source Games: A itch. io Case Study'
     year: '2025'
   B8qnQe0AAAAJ:eQOLeE2rZwMC:
-    citations: 60
+    citations: 61
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
