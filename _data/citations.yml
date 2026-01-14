@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2026-01-14'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
     citations: 7
@@ -14,7 +14,7 @@ papers:
     title: Towards a catalog of patterns for migrating legacy applications to IoT
     year: '2023'
   B8qnQe0AAAAJ:4TOpqqG69KYC:
-    citations: 3
+    citations: 4
     title: 'SyDRA: An approach to understand game engine architecture'
     year: '2025'
   B8qnQe0AAAAJ:5nxA0vEk-isC:
@@ -30,12 +30,12 @@ papers:
     title: SERP4IoT 2023
     year: Unknown Year
   B8qnQe0AAAAJ:9ZlFYXVOiuMC:
-    citations: 2
+    citations: 3
     title: Towards a framework for exploratory testing in video games
     year: '2025'
   B8qnQe0AAAAJ:L8Ckcad2t8MC:
-    citations: 0
-    title: 'Controlled Natural Language for Requirements Specification: A Systematic Literature Review'
+    citations: 1
+    title: 'Controlled natural language for requirements specification: A systematic literature review'
     year: '2025'
   B8qnQe0AAAAJ:LkGwnXOMwfcC:
     citations: 7
@@ -54,11 +54,11 @@ papers:
     title: A Mapping Study of the Entity Component System Pattern
     year: '2025'
   B8qnQe0AAAAJ:Se3iqnhoufwC:
-    citations: 96
+    citations: 98
     title: What skills do IT companies look for in new developers? A study with Stack Overflow jobs
     year: '2021'
   B8qnQe0AAAAJ:Tyk-4Ss8FVUC:
-    citations: 40
+    citations: 41
     title: A large scale empirical study of the impact of Spaghetti Code and Blob anti-patterns on program comprehension
     year: '2020'
   B8qnQe0AAAAJ:ULOm3_A8WrAC:
@@ -66,11 +66,11 @@ papers:
     title: "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)| 979-8-3503-0506-7/23/$31.00\xA9 2023 IEEE| DOI: 10.1109/SCAM59687. 2023.00040"
     year: Unknown Year
   B8qnQe0AAAAJ:UebtZRa9Y70C:
-    citations: 58
+    citations: 57
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 135
+    citations: 137
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
@@ -86,7 +86,7 @@ papers:
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 92
+    citations: 95
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:Zph67rFs4hoC:
@@ -102,11 +102,11 @@ papers:
     title: On the impact of development frameworks on mobile apps
     year: '2023'
   B8qnQe0AAAAJ:aqlVkmm33-oC:
-    citations: 2
+    citations: 3
     title: Unboxing default argument breaking changes in 1+ 2 data science libraries
     year: '2025'
   B8qnQe0AAAAJ:d1gkVwhDpl0C:
-    citations: 61
+    citations: 62
     title: Are the old days gone? A survey on actual software engineering processes in video game industry
     year: '2016'
   B8qnQe0AAAAJ:dhFuZR0502QC:
@@ -114,7 +114,7 @@ papers:
     title: 'On the Need for Reproducibility Guidelines for Open-Source Games: A itch. io Case Study'
     year: '2025'
   B8qnQe0AAAAJ:eQOLeE2rZwMC:
-    citations: 61
+    citations: 62
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
