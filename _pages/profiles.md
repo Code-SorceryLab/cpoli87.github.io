@@ -21,7 +21,7 @@ profiles:
   - content: students/about_dilan.md
   - content: students/about_kevin.md
   - content: students/about_al.md
-  - content: students/about_filip.md
+  - content: students/about_charon.md
   - content: students/about_alex.md
   - content: students/about_rabia.md
   - content: students/about_daniel.md  
