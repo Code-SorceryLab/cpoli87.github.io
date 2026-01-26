@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-optimizing-2d-physics-spatial-hashing",
+        },{id: "post-code-amp-sorcery-students-at-hackhive-2026",
+        
+          title: "Code &amp; Sorcery Students at HackHive 2026",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hackathon-css/";
+          
+        },
+      },{id: "post-optimizing-2d-physics-spatial-hashing",
         
           title: "Optimizing 2D Physics Spatial Hashing",
         
