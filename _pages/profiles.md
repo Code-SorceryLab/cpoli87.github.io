@@ -23,12 +23,12 @@ profiles:
   - content: students/about_al.md
   - content: students/about_charon.md
   - content: students/about_alex.md
-  - content: students/about_rabia.md
-  - content: students/about_daniel.md  
   - # image: saffron.jpg
     content: students/about_saffron.md
   - # image: saksham.jpg
     content: students/about_saksham.md
+  - content: students/about_rabia.md
+  - content: students/about_daniel.md  
   - content: students/about_ryan.md 
 
     # more_info: >
