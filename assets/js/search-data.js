@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-code-amp-sorcery-students-at-hackhive-2026",
+        },{id: "post-otuguessr-a-geoguessr-style-campus-exploration-game-for-ontario-tech-university",
+        
+          title: "OTUGuessr - A GeoGuessr-style campus exploration game for Ontario Tech University",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/otuguessr/";
+          
+        },
+      },{id: "post-code-amp-sorcery-students-at-hackhive-2026",
         
           title: "Code &amp; Sorcery Students at HackHive 2026",
         
