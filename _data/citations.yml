@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-02-16'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
-    citations: 7
+    citations: 6
     title: 'Event driven architecture: An exploratory study on the gap between academia and industry'
     year: '2023'
   B8qnQe0AAAAJ:3fE2CSJIrl8C:
-    citations: 7
+    citations: 6
     title: Visualising game engine subsystem coupling patterns
     year: '2023'
   B8qnQe0AAAAJ:4DMP91E08xMC:
@@ -36,14 +36,14 @@ papers:
   B8qnQe0AAAAJ:L8Ckcad2t8MC:
     citations: 1
     title: 'Controlled natural language for requirements specification: A systematic literature review'
-    year: '2025'
+    year: '2026'
   B8qnQe0AAAAJ:LkGwnXOMwfcC:
     citations: 8
     title: Assessing video game balance using autonomous agents
     year: '2023'
   B8qnQe0AAAAJ:M3ejUd6NZC8C:
     citations: 7
-    title: 'PlayMyData: a curated dataset of multi-platform video games'
+    title: 'Playmydata: a curated dataset of multi-platform video games'
     year: '2024'
   B8qnQe0AAAAJ:MXK_kJrjxJIC:
     citations: 7
@@ -51,14 +51,14 @@ papers:
     year: '2023'
   B8qnQe0AAAAJ:QIV2ME_5wuYC:
     citations: 2
-    title: A Mapping Study of the Entity Component System Pattern
+    title: A mapping study of the entity component system pattern
     year: '2025'
   B8qnQe0AAAAJ:Se3iqnhoufwC:
     citations: 99
     title: What skills do IT companies look for in new developers? A study with Stack Overflow jobs
     year: '2021'
   B8qnQe0AAAAJ:Tyk-4Ss8FVUC:
-    citations: 43
+    citations: 44
     title: A large scale empirical study of the impact of Spaghetti Code and Blob anti-patterns on program comprehension
     year: '2020'
   B8qnQe0AAAAJ:ULOm3_A8WrAC:
@@ -66,15 +66,15 @@ papers:
     title: "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)| 979-8-3503-0506-7/23/$31.00\xA9 2023 IEEE| DOI: 10.1109/SCAM59687. 2023.00040"
     year: Unknown Year
   B8qnQe0AAAAJ:UebtZRa9Y70C:
-    citations: 60
+    citations: 61
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 142
+    citations: 135
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
-    citations: 7
+    citations: 6
     title: Game engine comparative anatomy
     year: '2022'
   B8qnQe0AAAAJ:Wp0gIr-vW9MC:
@@ -82,11 +82,11 @@ papers:
     title: 'Event-driven architecture: Between theory and practice'
     year: '2023'
   B8qnQe0AAAAJ:Y0pCki6q_DkC:
-    citations: 5
+    citations: 4
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 98
+    citations: 97
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:ZeXyd9-uunAC:
@@ -106,11 +106,11 @@ papers:
     title: On the impact of development frameworks on mobile apps
     year: '2023'
   B8qnQe0AAAAJ:aqlVkmm33-oC:
-    citations: 4
+    citations: 5
     title: Unboxing default argument breaking changes in 1+ 2 data science libraries
     year: '2025'
   B8qnQe0AAAAJ:d1gkVwhDpl0C:
-    citations: 62
+    citations: 63
     title: Are the old days gone? A survey on actual software engineering processes in video game industry
     year: '2016'
   B8qnQe0AAAAJ:dhFuZR0502QC:
@@ -118,7 +118,7 @@ papers:
     title: 'On the Need for Reproducibility Guidelines for Open-Source Games: A itch. io Case Study'
     year: '2025'
   B8qnQe0AAAAJ:eQOLeE2rZwMC:
-    citations: 62
+    citations: 61
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
@@ -126,7 +126,7 @@ papers:
     title: Video game project management anti-patterns
     year: '2022'
   B8qnQe0AAAAJ:kNdYIx-mwKoC:
-    citations: 6
+    citations: 7
     title: A model-driven and template-based approach for requirements specification
     year: '2023'
   B8qnQe0AAAAJ:mVmsd5A6BfQC:
