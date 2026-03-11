@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-23'
+  last_updated: '2026-03-11'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
     citations: 6
@@ -70,7 +70,7 @@ papers:
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 135
+    citations: 136
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
@@ -86,7 +86,7 @@ papers:
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 98
+    citations: 99
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:ZeXyd9-uunAC:
@@ -98,7 +98,7 @@ papers:
     title: 'Enhanced line local binary patterns (EL-LBP): an efficient image representation for face recognition'
     year: '2018'
   B8qnQe0AAAAJ:_FxGoFyzp5QC:
-    citations: 9
+    citations: 10
     title: A domain specific language for the arinc 653 specification
     year: '2022'
   B8qnQe0AAAAJ:_kc_bZDykSQC:
