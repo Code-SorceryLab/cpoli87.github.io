@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-04-15'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
     citations: 6
@@ -38,11 +38,11 @@ papers:
     title: 'Controlled natural language for requirements specification: A systematic literature review'
     year: '2026'
   B8qnQe0AAAAJ:LkGwnXOMwfcC:
-    citations: 8
+    citations: 9
     title: Assessing video game balance using autonomous agents
     year: '2023'
   B8qnQe0AAAAJ:M3ejUd6NZC8C:
-    citations: 7
+    citations: 8
     title: 'Playmydata: a curated dataset of multi-platform video games'
     year: '2024'
   B8qnQe0AAAAJ:MXK_kJrjxJIC:
@@ -54,11 +54,11 @@ papers:
     title: A mapping study of the entity component system pattern
     year: '2025'
   B8qnQe0AAAAJ:Se3iqnhoufwC:
-    citations: 101
+    citations: 102
     title: What skills do IT companies look for in new developers? A study with Stack Overflow jobs
     year: '2021'
   B8qnQe0AAAAJ:Tyk-4Ss8FVUC:
-    citations: 44
+    citations: 46
     title: A large scale empirical study of the impact of Spaghetti Code and Blob anti-patterns on program comprehension
     year: '2020'
   B8qnQe0AAAAJ:ULOm3_A8WrAC:
@@ -70,7 +70,7 @@ papers:
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 139
+    citations: 143
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
@@ -110,7 +110,7 @@ papers:
     title: Unboxing default argument breaking changes in 1+ 2 data science libraries
     year: '2025'
   B8qnQe0AAAAJ:d1gkVwhDpl0C:
-    citations: 64
+    citations: 65
     title: Are the old days gone? A survey on actual software engineering processes in video game industry
     year: '2016'
   B8qnQe0AAAAJ:dhFuZR0502QC:
@@ -118,7 +118,7 @@ papers:
     title: 'On the Need for Reproducibility Guidelines for Open-Source Games: A itch. io Case Study'
     year: '2025'
   B8qnQe0AAAAJ:eQOLeE2rZwMC:
-    citations: 62
+    citations: 63
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
