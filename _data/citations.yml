@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-18'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
     citations: 7
@@ -34,7 +34,7 @@ papers:
     title: Towards a framework for exploratory testing in video games
     year: '2025'
   B8qnQe0AAAAJ:L8Ckcad2t8MC:
-    citations: 1
+    citations: 2
     title: 'Controlled natural language for requirements specification: A systematic literature review'
     year: '2026'
   B8qnQe0AAAAJ:LkGwnXOMwfcC:
@@ -54,7 +54,7 @@ papers:
     title: A mapping study of the entity component system pattern
     year: '2025'
   B8qnQe0AAAAJ:Se3iqnhoufwC:
-    citations: 102
+    citations: 103
     title: What skills do IT companies look for in new developers? A study with Stack Overflow jobs
     year: '2021'
   B8qnQe0AAAAJ:Tyk-4Ss8FVUC:
@@ -66,15 +66,15 @@ papers:
     title: "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)| 979-8-3503-0506-7/23/$31.00\xA9 2023 IEEE| DOI: 10.1109/SCAM59687. 2023.00040"
     year: Unknown Year
   B8qnQe0AAAAJ:UebtZRa9Y70C:
-    citations: 62
+    citations: 63
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 145
+    citations: 149
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
-    citations: 6
+    citations: 7
     title: Game engine comparative anatomy
     year: '2022'
   B8qnQe0AAAAJ:Wp0gIr-vW9MC:
@@ -86,7 +86,7 @@ papers:
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 100
+    citations: 102
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:ZeXyd9-uunAC:
@@ -122,7 +122,7 @@ papers:
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
-    citations: 13
+    citations: 15
     title: Video game project management anti-patterns
     year: '2022'
   B8qnQe0AAAAJ:kNdYIx-mwKoC:
