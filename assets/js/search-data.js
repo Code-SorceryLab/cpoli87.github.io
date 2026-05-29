@@ -140,6 +140,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/call-fase4games26/";
+            },},{id: "news-honours-thesis-class-of-2026",
+          title: 'Honours Thesis — Class of 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/honour-thesis-f2025-w2026/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
