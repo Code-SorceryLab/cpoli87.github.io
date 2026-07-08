@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-08'
 papers:
   B8qnQe0AAAAJ:0EnyYjriUFMC:
-    citations: 7
+    citations: 8
     title: 'Event driven architecture: An exploratory study on the gap between academia and industry'
     year: '2023'
   B8qnQe0AAAAJ:3fE2CSJIrl8C:
@@ -14,7 +14,7 @@ papers:
     title: Towards a catalog of patterns for migrating legacy applications to IoT
     year: '2023'
   B8qnQe0AAAAJ:4TOpqqG69KYC:
-    citations: 5
+    citations: 7
     title: 'SyDRA: An approach to understand game engine architecture'
     year: '2025'
   B8qnQe0AAAAJ:5nxA0vEk-isC:
@@ -66,11 +66,11 @@ papers:
     title: "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)| 979-8-3503-0506-7/23/$31.00\xA9 2023 IEEE| DOI: 10.1109/SCAM59687. 2023.00040"
     year: Unknown Year
   B8qnQe0AAAAJ:UebtZRa9Y70C:
-    citations: 69
+    citations: 70
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 150
+    citations: 152
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
@@ -86,7 +86,7 @@ papers:
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 107
+    citations: 108
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:ZeXyd9-uunAC:
@@ -110,7 +110,7 @@ papers:
     title: Unboxing default argument breaking changes in 1+ 2 data science libraries
     year: '2025'
   B8qnQe0AAAAJ:d1gkVwhDpl0C:
-    citations: 66
+    citations: 68
     title: Are the old days gone? A survey on actual software engineering processes in video game industry
     year: '2016'
   B8qnQe0AAAAJ:dhFuZR0502QC:
@@ -122,7 +122,7 @@ papers:
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
-    citations: 15
+    citations: 16
     title: Video game project management anti-patterns
     year: '2022'
   B8qnQe0AAAAJ:kNdYIx-mwKoC:
@@ -150,6 +150,6 @@ papers:
     title: What makes a game high-rated? towards factors of video game success
     year: '2022'
   B8qnQe0AAAAJ:zYLM7Y9cAGgC:
-    citations: 48
+    citations: 49
     title: Dataset of video game development problems
     year: '2020'
