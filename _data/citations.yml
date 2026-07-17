@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-17'
 papers:
+  B8qnQe0AAAAJ:-f6ydRqryjwC:
+    citations: 0
+    title: 'Creativity Beyond Functionality: An Observational Study of Easter Eggs in Video Games'
+    year: '2026'
   B8qnQe0AAAAJ:0EnyYjriUFMC:
     citations: 8
     title: 'Event driven architecture: An exploratory study on the gap between academia and industry'
@@ -33,8 +37,12 @@ papers:
     citations: 3
     title: Towards a framework for exploratory testing in video games
     year: '2025'
+  B8qnQe0AAAAJ:IWHjjKOFINEC:
+    citations: 0
+    title: 'CG-WFC: A Hybrid Cyclic-Graph & WFC Method for Designer-Guided and Replayable Procedural Content Generation'
+    year: '2026'
   B8qnQe0AAAAJ:L8Ckcad2t8MC:
-    citations: 4
+    citations: 5
     title: 'Controlled natural language for requirements specification: A systematic literature review'
     year: '2026'
   B8qnQe0AAAAJ:LkGwnXOMwfcC:
@@ -50,7 +58,7 @@ papers:
     title: Unboxing default argument breaking changes in scikit learn
     year: '2023'
   B8qnQe0AAAAJ:QIV2ME_5wuYC:
-    citations: 3
+    citations: 4
     title: A mapping study of the entity component system pattern
     year: '2025'
   B8qnQe0AAAAJ:Se3iqnhoufwC:
@@ -70,7 +78,7 @@ papers:
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
-    citations: 152
+    citations: 156
     title: A survey of video game testing
     year: '2021'
   B8qnQe0AAAAJ:WF5omc3nYNoC:
@@ -110,19 +118,27 @@ papers:
     title: Unboxing default argument breaking changes in 1+ 2 data science libraries
     year: '2025'
   B8qnQe0AAAAJ:d1gkVwhDpl0C:
-    citations: 68
+    citations: 66
     title: Are the old days gone? A survey on actual software engineering processes in video game industry
     year: '2016'
   B8qnQe0AAAAJ:dhFuZR0502QC:
-    citations: 0
+    citations: 2
     title: 'On the Need for Reproducibility Guidelines for Open-Source Games: A itch. io Case Study'
     year: '2025'
   B8qnQe0AAAAJ:eQOLeE2rZwMC:
     citations: 65
     title: 'Towards automated video game testing: still a long way to go'
     year: '2022'
+  B8qnQe0AAAAJ:hC7cP41nSMkC:
+    citations: 0
+    title: Characterizing Open-Source Video Games from a Software Engineering Perspective
+    year: '2026'
+  B8qnQe0AAAAJ:hFOr9nPyWt4C:
+    citations: 0
+    title: Andre Takeshi Endo 1 Antonio Coppe 33
+    year: Unknown Year
   B8qnQe0AAAAJ:hqOjcs7Dif8C:
-    citations: 16
+    citations: 18
     title: Video game project management anti-patterns
     year: '2022'
   B8qnQe0AAAAJ:kNdYIx-mwKoC:
@@ -133,6 +149,10 @@ papers:
     citations: 0
     title: 'Report on ReAnimate''24: 2024 Summer School on Retro Gaming History, Critic, and Development'
     year: '2025'
+  B8qnQe0AAAAJ:qUcmZB5y_30C:
+    citations: 0
+    title: 'Multilingual Game Dialogue Translation using Large Language Models: A Performance Survey'
+    year: '2026'
   B8qnQe0AAAAJ:roLk4NBRz8UC:
     citations: 2
     title: Aspects of high-rated games
@@ -142,11 +162,11 @@ papers:
     title: "Software engineering processes in game development: a survey about brazilian developers\u2019 experiences"
     year: '2016'
   B8qnQe0AAAAJ:u5HHmVD_uO8C:
-    citations: 28
+    citations: 29
     title: 'Learning from the past: A process recommendation system for video game projects using postmortems experiences'
     year: '2018'
   B8qnQe0AAAAJ:ufrVoPGSRksC:
-    citations: 15
+    citations: 16
     title: What makes a game high-rated? towards factors of video game success
     year: '2022'
   B8qnQe0AAAAJ:zYLM7Y9cAGgC:
