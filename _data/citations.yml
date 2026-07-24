@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-24'
 papers:
   B8qnQe0AAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: Towards a catalog of patterns for migrating legacy applications to IoT
     year: '2023'
   B8qnQe0AAAAJ:4TOpqqG69KYC:
-    citations: 7
+    citations: 8
     title: 'SyDRA: An approach to understand game engine architecture'
     year: '2025'
   B8qnQe0AAAAJ:5nxA0vEk-isC:
@@ -58,7 +58,7 @@ papers:
     title: Unboxing default argument breaking changes in scikit learn
     year: '2023'
   B8qnQe0AAAAJ:QIV2ME_5wuYC:
-    citations: 4
+    citations: 6
     title: A mapping study of the entity component system pattern
     year: '2025'
   B8qnQe0AAAAJ:Se3iqnhoufwC:
@@ -66,7 +66,7 @@ papers:
     title: What skills do IT companies look for in new developers? A study with Stack Overflow jobs
     year: '2021'
   B8qnQe0AAAAJ:Tyk-4Ss8FVUC:
-    citations: 46
+    citations: 48
     title: A large scale empirical study of the impact of Spaghetti Code and Blob anti-patterns on program comprehension
     year: '2020'
   B8qnQe0AAAAJ:ULOm3_A8WrAC:
@@ -74,7 +74,7 @@ papers:
     title: "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)| 979-8-3503-0506-7/23/$31.00\xA9 2023 IEEE| DOI: 10.1109/SCAM59687. 2023.00040"
     year: Unknown Year
   B8qnQe0AAAAJ:UebtZRa9Y70C:
-    citations: 70
+    citations: 72
     title: Are game engines software frameworks? A three-perspective study
     year: '2021'
   B8qnQe0AAAAJ:W7OEmFMy1HYC:
@@ -94,7 +94,7 @@ papers:
     title: An exploratory approach for game engine architecture recovery
     year: '2023'
   B8qnQe0AAAAJ:YsMSGLbcyi4C:
-    citations: 108
+    citations: 111
     title: 'Game industry problems: An extensive analysis of the gray literature'
     year: '2021'
   B8qnQe0AAAAJ:ZeXyd9-uunAC:
@@ -106,7 +106,7 @@ papers:
     title: 'Enhanced line local binary patterns (EL-LBP): an efficient image representation for face recognition'
     year: '2018'
   B8qnQe0AAAAJ:_FxGoFyzp5QC:
-    citations: 10
+    citations: 11
     title: A domain specific language for the arinc 653 specification
     year: '2022'
   B8qnQe0AAAAJ:_kc_bZDykSQC:
@@ -170,6 +170,6 @@ papers:
     title: What makes a game high-rated? towards factors of video game success
     year: '2022'
   B8qnQe0AAAAJ:zYLM7Y9cAGgC:
-    citations: 49
+    citations: 51
     title: Dataset of video game development problems
     year: '2020'
