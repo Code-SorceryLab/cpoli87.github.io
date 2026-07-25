@@ -1,0 +1,74 @@
+name: Update publications from DBLP
+
+on:
+  schedule:
+    - cron: "0 4 * * 0" # Sunday 04:00 UTC
+  workflow_dispatch:
+    inputs:
+      include_preprints:
+        description: "Also import arXiv/CoRR entries"
+        type: boolean
+        default: false
+      include_datasets:
+        description: "Also import DBLP data/ artifact entries"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # The script uses only the standard library, so there is nothing to install.
+      - name: Fetch DBLP and append new entries
+        id: sync
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.include_preprints }}" = "true" ]; then FLAGS="$FLAGS --include-preprints"; fi
+          if [ "${{ inputs.include_datasets }}" = "true" ]; then FLAGS="$FLAGS --include-datasets"; fi
+          echo "🔎 Running DBLP sync with flags: ${FLAGS:-none}"
+          python bin/update_dblp_bib.py --report pr-body.md $FLAGS
+
+      - name: Report to run summary
+        if: always()
+        run: |
+          if [ -f pr-body.md ]; then
+            cat pr-body.md >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No report produced — the fetch failed before classification." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Check whether the bibliography changed
+        id: changed
+        run: |
+          if git diff --quiet -- _bibliography/my.bib; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No new publications; nothing to propose."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "✅ New entries appended."
+          fi
+
+      - name: Open a pull request
+        if: steps.changed.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: _bibliography/my.bib
+          branch: bot/dblp-publications
+          delete-branch: true
+          commit-message: "Add new publications from DBLP"
+          title: "Add new publications from DBLP"
+          body-path: pr-body.md
+          labels: publications, automated
