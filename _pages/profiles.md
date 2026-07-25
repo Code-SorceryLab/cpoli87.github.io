@@ -33,6 +33,7 @@ profiles:
     alumni: true
 
   - section: Undergraduate students
+    image: alex.png
     content: students/about_alex.md
     alumni: true
   - image: saffron.jpg
