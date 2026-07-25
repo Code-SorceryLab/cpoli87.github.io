@@ -1,2 +1,2 @@
 # Mohame Al Musqi Mohamed Shifan
-> Incoming Master's Student
+> Master's student · started May 2026 · co-supervised with Loutfouz Zaman

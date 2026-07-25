@@ -1,2 +1,2 @@
 # Dilan Mian
-> Master's student
+> Master's student · started September 2025

@@ -1,2 +1,2 @@
 # Kevin Christopher Chua
-> Incoming Master's Student
+> Master's student · started May 2026 · co-supervised with Ali Neshati
