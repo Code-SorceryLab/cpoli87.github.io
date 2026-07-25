@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Ongoing work in the lab. If something here interests you, get in touch.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
@@ -145,51 +152,91 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/honour-thesis-f2025-w2026/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-interrogating-generative-npcs",
+          title: 'Interrogating generative NPCs',
+          description: "Can an LLM-driven character hold up under pressure? Building a framework to find out.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/adversarial-npc-evaluation/";
+            },},{id: "projects-one-agent-many-play-styles",
+          title: 'One agent, many play styles',
+          description: "Getting behavioural variety out of a single playtesting agent instead of training a separate one per style.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/behavioural-coverage-rl/";
+            },},{id: "projects-creativity-beyond-functionality",
+          title: 'Creativity beyond functionality',
+          description: "A large-scale look at hidden content in games: the creative work that serves no functional purpose.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/easter-eggs/";
+            },},{id: "projects-what-ecs-design-choices-really-cost",
+          title: 'What ECS design choices really cost',
+          description: "Several ways to handle collisions in an Entity-Component-System architecture, and the price each one carries.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/ecs-collision-tradeoffs/";
+            },},{id: "projects-automating-the-move-to-the-gpu",
+          title: 'Automating the move to the GPU',
+          description: "Generating GPU plumbing for ECS systems automatically, and working out at runtime when the GPU is actually worth it.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/ecs-gpu-offload/";
+            },},{id: "projects-emotional-memory-in-generative-characters",
+          title: 'Emotional memory in generative characters',
+          description: "Whether LLM-driven characters remember what mattered to them, and whether that is grounded in psychology.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/emotional-memory-npcs/";
+            },},{id: "projects-translating-games-with-small-models",
+          title: 'Translating games with small models',
+          description: "Whether models small enough to run on an ordinary machine can translate game dialogue, including into low-resource languages.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/game-dialogue-translation/";
+            },},{id: "projects-how-games-are-maintained-after-release",
+          title: 'How games are maintained after release',
+          description: "What developer-written patch notes across a whole storefront reveal about post-release maintenance.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/game-maintenance-patch-notes/";
+            },},{id: "projects-legacy-modernization-with-coding-agents",
+          title: 'Legacy modernization with coding agents',
+          description: "Putting an AI coding agent on a real industrial migration and measuring what it delivers.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/legacy-modernization-agents/";
+            },},{id: "projects-the-llm-npc-landscape",
+          title: 'The LLM-NPC landscape',
+          description: "A systematic map of how large language models are being used to drive non-player characters, and where the gaps are.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-npc-landscape/";
+            },},{id: "projects-generating-game-assets-end-to-end",
+          title: 'Generating game assets end to end',
+          description: "How far an automated pipeline can get toward usable text and art for a game character.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/multimodal-asset-generation/";
+            },},{id: "projects-open-source-games-as-software",
+          title: 'Open-source games as software',
+          description: "Characterising open-source video games from a software engineering standpoint.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/open-source-games/";
+            },},{id: "projects-peak-authoring-and-training-in-one-loop",
+          title: 'PEAK: authoring and training in one loop',
+          description: "An open-source 2D platformer engine where you can design a level and train an agent on it without leaving the tool.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/peak-engine/";
+            },},{id: "projects-persona-based-playtesting-surveyed",
+          title: 'Persona-based playtesting, surveyed',
+          description: "Taking stock of persona-driven agents for automated playtesting, and how little the field agrees on.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/persona-playtesting-survey/";
+            },},{id: "projects-staying-in-character",
+          title: 'Staying in character',
+          description: "Keeping a character consistent over a long conversation by working inside the model rather than the prompt.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/persona-stability/";
+            },},{id: "projects-transpiling-the-good-old-days",
+          title: 'Transpiling the good old days',
+          description: "Bringing games written for a long-obsolete BASIC dialect back to life on a modern runtime.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/retro-transpiling/";
+            },},{id: "projects-migrating-to-a-typed-language",
+          title: 'Migrating to a typed language',
+          description: "How JavaScript projects actually move to TypeScript, and whether code quality follows.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/typescript-migration/";
             },},{
         id: 'social-arxiv',
         title: 'arXiv',
