@@ -30,25 +30,25 @@ profiles:
     content: students/about_yohan.md
   - image: laurent.jpeg
     content: students/about_laurent.md
-    alumni: true
+    graduated: true
 
   - section: Undergraduate students
     image: alex.png
     content: students/about_alex.md
-    alumni: true
+    graduated: true
   - image: saffron.jpg
     content: students/about_saffron.md
-    alumni: true
+    graduated: true
   - image: saksham.jpg
     content: students/about_saksham.md
-    alumni: true
+    graduated: true
   - content: students/about_rabia.md
-    alumni: true
+    graduated: true
   - content: students/about_daniel.md
-    alumni: true
+    graduated: true
   - content: students/about_ryan.md
-    alumni: true
+    graduated: true
   - image: saahir.png
     content: students/about_saahir.md
-    alumni: true
+    graduated: true
 ---

@@ -15,7 +15,7 @@ layout: page
     text-transform: uppercase;
     color: var(--global-theme-color);
   }
-  .alumni-tag {
+  .graduated-tag {
     display: inline-block;
     vertical-align: middle;
     margin-left: 0.6rem;
@@ -60,10 +60,10 @@ layout: page
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {% assign profile_html = profile_content | markdownify %}
-            {% if profile.alumni %}
+            {% if profile.graduated %}
               {% comment %}Tuck the tag inside the name heading so it reads as part of the name.{% endcomment %}
-              {% assign alumni_tag = '<span class="alumni-tag">alumni</span></h1>' %}
-              {% assign profile_html = profile_html | replace: '</h1>', alumni_tag %}
+              {% assign graduated_tag = '<span class="graduated-tag">graduated</span></h1>' %}
+              {% assign profile_html = profile_html | replace: '</h1>', graduated_tag %}
             {% endif %}
             {{ profile_html }}
           {% else %}
