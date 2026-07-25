@@ -1,2 +1,2 @@
-# Caio César Varalta Barreto de Almeida
+# Caio Varalta
 > Master's student · co-supervised with Leonardo Tórtoro Pereira (IGCE, UNESP)
