@@ -1,2 +1,2 @@
 # Ryan Ahlborn
-> Undergraduate Honours Researcher
+> Undergraduate Honours Researcher · co-supervised with Michael Miljanovic

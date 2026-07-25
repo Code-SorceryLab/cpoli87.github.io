@@ -1,2 +1,2 @@
 # Alex Lowe
-> Undergraduate Honours Researcher
+> Undergraduate Honours Researcher · co-supervised with Ali Neshati

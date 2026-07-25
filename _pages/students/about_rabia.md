@@ -1,2 +1,2 @@
 # Rabia Chattha
-> Undergraduate Honours Researcher
+> Undergraduate Honours Researcher · co-supervised with Ken Pu

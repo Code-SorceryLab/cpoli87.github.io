@@ -1,11 +1,45 @@
 ---
 layout: page
 ---
+<style>
+  /* Person names are <h1> (from `# Name` in each content file), so the group
+     label cannot win on size. It reads as a divider instead: uppercase, ruled. */
+  .profile-section {
+    margin-top: 3.5rem;
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--global-divider-color);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+  .alumni-tag {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.6rem;
+    padding: 0.2em 0.7em;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1em;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+</style>
 <div class="post">
   <article>
     {% if page.profiles %}
       {% for profile in page.profiles %}
-        <hr>
+        {% if profile.section %}
+          <h2 class="profile-section">{{ profile.section }}</h2>
+        {% else %}
+          <hr>
+        {% endif %}
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
@@ -25,7 +59,13 @@ layout: page
         <div class="clearfix">
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
+            {% assign profile_html = profile_content | markdownify %}
+            {% if profile.alumni %}
+              {% comment %}Tuck the tag inside the name heading so it reads as part of the name.{% endcomment %}
+              {% assign alumni_tag = '<span class="alumni-tag">alumni</span></h1>' %}
+              {% assign profile_html = profile_html | replace: '</h1>', alumni_tag %}
+            {% endif %}
+            {{ profile_html }}
           {% else %}
             {{ content }}
           {% endif %}

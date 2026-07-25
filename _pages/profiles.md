@@ -7,41 +7,38 @@ nav: true
 nav_order: 7
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
+  # To add someone: create a content file in _pages/students/ and add an entry
+  # below. `section:` starts a new heading — put it on the first person of a group.
   - align: right
     image: prof_pic.jpg
     content: about_cristiano.md
     image_circular: false # crops the image to make it circular
-    # more_info: >
-    #   <p>555 your office number</p>
-    #   <p>123 your address street</p>
-    #   <p>Your City, State 12345</p>
 
-  - content: students/about_dilan.md
+  - section: Graduate students
+    content: students/about_dilan.md
   - content: students/about_kevin.md
   - content: students/about_al.md
   - content: students/about_charon.md
-  - content: students/about_alex.md
+  - content: students/about_caio.md
+  - content: students/about_yohan.md
+  - content: students/about_laurent.md
+    alumni: true
+
+  - section: Undergraduate students
+    content: students/about_alex.md
+    alumni: true
   - # image: saffron.jpg
     content: students/about_saffron.md
+    alumni: true
   - # image: saksham.jpg
     content: students/about_saksham.md
+    alumni: true
   - content: students/about_rabia.md
-  - content: students/about_daniel.md  
-  - content: students/about_ryan.md 
-
-    # more_info: >
-    #   <p>Test</p>
-    #   <p>test</p>
-    #   <p>test</p>
-
-  # - align: left
-  #   image: 
-  #   content: about_someone.md
-  #   image_circular: false # crops the image to make it circular
-  #   more_info: >
-  #     <p>Test</p>
-  #     <p>test</p>
-  #     <p>test</p>
+    alumni: true
+  - content: students/about_daniel.md
+    alumni: true
+  - content: students/about_ryan.md
+    alumni: true
+  - content: students/about_saahir.md
+    alumni: true
 ---
