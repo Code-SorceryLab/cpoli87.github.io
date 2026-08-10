@@ -12,7 +12,7 @@ Proud to share the work of my undergraduate honours thesis students from the Fal
 
 <div class="row mt-4 align-items-center">
   <div class="col-sm-2">
-    {% include figure.liquid loading="eager" path="assets/honour-thesis/f2025-w2026/alex.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/honour-thesis/f2025-w2026/alex.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-10">
     <strong>Alex Lowe</strong><br>
@@ -27,7 +27,7 @@ Proud to share the work of my undergraduate honours thesis students from the Fal
 
 <div class="row mt-4 align-items-center">
   <div class="col-sm-2">
-    {% include figure.liquid loading="eager" path="assets/honour-thesis/f2025-w2026/rabia.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/honour-thesis/f2025-w2026/rabia.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-10">
     <strong>Rabia Chattha</strong><br>
@@ -41,7 +41,7 @@ Proud to share the work of my undergraduate honours thesis students from the Fal
 
 <div class="row mt-4 align-items-center">
   <div class="col-sm-2">
-    {% include figure.liquid loading="eager" path="assets/honour-thesis/f2025-w2026/ryan.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/honour-thesis/f2025-w2026/ryan.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-10">
     <strong>Ryan Ahlborn</strong><br>
@@ -56,7 +56,7 @@ Proud to share the work of my undergraduate honours thesis students from the Fal
 
 <div class="row mt-4 align-items-center">
   <div class="col-sm-2">
-    {% include figure.liquid loading="eager" path="assets/honour-thesis/f2025-w2026/saahir.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/honour-thesis/f2025-w2026/saahir.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-10">
     <strong>Saahir Dhani</strong><br>
@@ -71,7 +71,7 @@ Proud to share the work of my undergraduate honours thesis students from the Fal
 
 <div class="row mt-4 align-items-center">
   <div class="col-sm-2">
-    {% include figure.liquid loading="eager" path="assets/honour-thesis/f2025-w2026/saffron.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/honour-thesis/f2025-w2026/saffron.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-10">
     <strong>Saffron Birch</strong><br>
@@ -86,7 +86,7 @@ Proud to share the work of my undergraduate honours thesis students from the Fal
 
 <div class="row mt-4 align-items-center">
   <div class="col-sm-2">
-    {% include figure.liquid loading="eager" path="assets/honour-thesis/f2025-w2026/saksham.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/honour-thesis/f2025-w2026/saksham.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-10">
     <strong>Saksham Tejpal</strong><br>
