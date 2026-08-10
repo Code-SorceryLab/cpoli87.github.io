@@ -9,33 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Code &amp; Sorcery Lab - Empirical Game Research",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Ongoing work in the lab. If something here interests you, get in touch.",
+          description: "Code &amp; Sorcery Lab - Empirical Game Research  Ongoing work in the lab. If something here interests you, get in touch.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "nav-team",
           title: "team",
@@ -44,7 +30,54 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-otuguessr-a-geoguessr-style-campus-exploration-game-for-ontario-tech-university",
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "post-research-visit-and-seminar-at-ufmg",
+        
+          title: "Research visit and seminar at UFMG",
+        
+        description: "Two weeks at the Department of Computer Science at UFMG in Belo Horizonte, working on LLMs for software development productivity.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/seminar-ufmg/";
+          
+        },
+      },{id: "post-honours-thesis-class-of-2026",
+        
+          title: "Honours Thesis — Class of 2026",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/honour-thesis-f2025-w2026/";
+          
+        },
+      },{id: "post-invited-lecture-empirical-retro-game-research",
+        
+          title: "Invited lecture — Empirical (RETRO) Game Research",
+        
+        description: "A guest lecture on empirical game research for INFR 3375U/CSCI 5550G Retro Game Development, with four case studies on easter eggs, Dragon Quest, Final Fantasy IV, and Pokémon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/invited-lecture/";
+          
+        },
+      },{id: "post-otuguessr-a-geoguessr-style-campus-exploration-game-for-ontario-tech-university",
         
           title: "OTUGuessr - A GeoGuessr-style campus exploration game for Ontario Tech University",
         
@@ -66,6 +99,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/hackathon-css/";
           
         },
+      },{id: "post-call-for-submissions-fase4games-26-fse-2026-montreal-canada",
+        
+          title: "📢 Call for Submissions - FaSE4Games’26 @ FSE 2026 (Montreal, Canada)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/call-fase4games26/";
+          
+        },
       },{id: "post-optimizing-2d-physics-spatial-hashing",
         
           title: "Optimizing 2D Physics Spatial Hashing",
@@ -75,6 +119,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/spatial-hashing/";
+          
+        },
+      },{id: "post-research-seminar",
+        
+          title: "Research Seminar",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/research-seminar26/";
           
         },
       },{id: "post-what-about-indies",
@@ -137,21 +192,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-research-seminar",
-          title: 'Research Seminar',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/research-seminar26/";
-            },},{id: "news-call-for-submissions-fase4games-26-fse-2026-montreal-canada",
-          title: '📢 Call for Submissions - FaSE4Games’26 @ FSE 2026 (Montreal, Canada)',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/call-fase4games26/";
-            },},{id: "news-honours-thesis-class-of-2026",
-          title: 'Honours Thesis — Class of 2026',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/honour-thesis-f2025-w2026/";
             },},{id: "projects-interrogating-generative-npcs",
           title: 'Interrogating generative NPCs',
           description: "Can an LLM-driven character hold up under pressure? Building a framework to find out.",
