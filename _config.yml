@@ -17,7 +17,7 @@ keywords: research, computer science, game development, software development # a
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🕹️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://cpoli87.github.io # the base hostname & protocol for your site
+url: https://cpoli.live # the base hostname & protocol for your site (must match CNAME)
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -168,25 +168,16 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
-  - _pages/repositories.md
   - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
 keep_files:
   - CNAME
@@ -617,25 +608,9 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# The CV page is driven by _data/cv.yml. To use a JSON Resume instead, restore
+# the jekyll_get_json and jsonresume settings documented in the al-folio repo.

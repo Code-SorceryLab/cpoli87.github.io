@@ -2,10 +2,10 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: false
-nav_order: 5
+nav: true
+nav_order: 6
 cv_pdf: CCV-CristianoPolitowski.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Code & Sorcery Lab - Empirical Game Research <br> Publications are listed on the <a href='/publications/'>publications</a> page.
 toc:
   sidebar: left
 ---

@@ -3,95 +3,168 @@
   contents:
     - name: Full Name
       value: Cristiano Politowski
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Position
+      value: Assistant Professor, Computer Science, Faculty of Science
+    - name: Affiliation
+      value: Ontario Tech University, Oshawa, ON, Canada
     - name: Languages
-      value: English, German
+      value: English, Portuguese, French, Spanish
+    - name: Research Keywords
+      value: Video Game Studies, Video Game Development, Video Game Testing, Software Development, AI for Software Development, Empirical Studies
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Software Engineering
+      institution: Concordia University, Montréal, QC, Canada
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Supervised by Fabio Petrillo and Yann-Gaël Guéhéneuc.
+    - title: M.Sc. in Computer Science
+      institution: Universidade Federal de Santa Maria (UFSM), Brazil
+      year: 2015
       description:
-        - Description 1.
-        - Description 2.
+        - Supervised by Lisandra Manzoni Fontoura.
+    - title: B.Sc. in Computer Science
+      institution: Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUÍ), Brazil
+      year: 2014
+      description:
+        - Supervised by Fabricia C. Roos Frantz.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Assistant Professor (Tenure Track)
+      institution: Computer Science, Faculty of Science, Ontario Tech University
+      year: 2024 - now
+    - title: Postdoctoral Fellow
+      institution: Département d'informatique et de recherche opérationnelle (DIRO), Université de Montréal
+      year: 2023 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked with Houari Sahraoui and Michalis Famelis on automated software testing.
+    - title: Postdoctoral Fellow
+      institution: Département de génie logiciel et des TI, École de technologie supérieure (ÉTS)
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Worked with Ghizlane El-Boussaidi on software requirements and testing.
+    - title: Teaching Assistant
+      institution: Computer Science and Software Engineering, Concordia University
+      year: 2019 - 2023
       description:
+        - "Software Engineering Design Project (SOEN 390), Software Architecture and Design (SOEN 343), Software Design Methodology (SOEN 6441)."
+    - title: Software Engineer
+      institution: Livid (startup)
+      year: 2014 - 2018
+      description:
+        - Maintained a legacy PHP application with a focus on database performance, and extended the web server to serve optimized assets.
+    - title: Web Developer
+      institution: IC1 (startup)
+      year: 2011 - 2013
+      description:
+        - Front-end and back-end development in Java (Struts 2, Hibernate) with PostgreSQL.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Funding
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Startup grant
+      institution: Ontario Tech University, Canada — principal applicant
+      year: 2024 - 2030
+    - title: Improving Aspects of Software Development Productivity using Language Models
+      institution: CNPq, Brazil — co-applicant
+      year: 2024 - 2026
+      description:
+        - With André Hora, Diego Elias Costa, Eduardo Figueiredo, Fábio Petrillo, João Eduardo Montandon and Marco Túlio Valente.
+    - title: Playtesting Based on Coverage Criteria
+      institution: CNPq, Brazil — co-applicant
+      year: 2024 - 2026
+      description:
+        - With Andre Takeshi Endo and Yohan Duarte Pessanha.
+    - title: Verifying and Deploying 5G Cloud Infrastructure for Healthcare Facilities Dealing with COVID-19 Patients
+      institution: MITACS Accelerate with Humanitas Solutions — co-applicant
+      year: 2021 - 2022
+    - title: Évaluation empirique des environnements de développement logiciel
+      institution: Agence Universitaire de la Francophonie (AUF) — collaborator
+      year: 2018 - 2019
+
+- title: Event Organization
+  type: time_table
+  contents:
+    - title: General Chair, FaSE4Games'26
+      institution: Foundations of Applied Software Engineering for Games, co-located with FSE
+      year: 2026
+    - title: General Chair, FaSE4Games'25
+      institution: Foundations of Applied Software Engineering for Games, co-located with FSE
+      year: 2025
+    - title: Organizer, Summer School on Retro Gaming History, Critique, and Development
+      institution: Montréal, Canada
+      year: 2025
+    - title: General Chair, FaSE4Games'24
+      institution: Foundations of Applied Software Engineering for Games, co-located with FSE
+      year: 2024
+    - title: Organizer, Summer School on Retro Gaming History, Critique, and Development
+      institution: Montréal, Canada
+      year: 2024
+    - title: General Chair, SE4Games 2022
+      institution: Second International Workshop on Automated Software Engineering for Computer Games, co-located with ASE
+      year: 2022
+    - title: General Chair, SE4Games 2021
+      institution: First International Workshop on Automated Software Engineering for Computer Games, co-located with ASE
+      year: 2021
+
+- title: Editorial Activities
+  type: time_table
+  contents:
+    - title: Guest Editor
+      institution: Special Issue on Software Engineering for Games
+      year: 2025
+
+- title: Invited Talks and Presentations
+  type: time_table
+  contents:
+    - title: "Preserving Development Histories: Through Mixed-methods Retro Game Analysis"
+      institution: Summer School on Retro Gaming History, Critique, and Development, Montréal, Canada
+      year: 2025
+    - title: "Adapting to a Generation Leap: Mixed-methods Analysis of Dragon Quest's Evolution from NES to SNES"
+      institution: International Conference on Games and Narrative, Waterloo, Canada
+      year: 2025
+    - title: Software Engineering for Game Development
+      institution: Guest lecture, CSCI 5010G, Ontario Tech University, Canada
+      year: 2024
+    - title: Video Game Testing 101
+      institution: Guest lecture, LOG6305, Polytechnique Montréal, Canada
+      year: 2024
+    - title: "Creativity Beyond Functionality: An Observational Study of Easter Eggs in Video Games"
+      institution: Summer School on Retro Gaming History, Critique, and Development, Montréal, Canada
+      year: 2024
+    - title: "Video Game Software Engineering: Troubles, Techniques, and Tools"
+      institution: Research seminar, Université de Montréal, Canada
+      year: 2023
+    - title: Testing Video Games from a Software Engineering Perspective
+      institution: Research seminar, Polytechnique Montréal, Canada
+      year: 2020
+    - title: New Opportunities in Game Research
+      institution: UNIJUÍ (Brazil), Universidad de Montevideo (Uruguay), and UFMG (Brazil)
+      year: 2019
+
+- title: International Collaboration
+  type: time_table
+  contents:
+    - title: Research exchange, Brazil
+      institution: UFMG, UFRGS, UniRitter and UNIJUÍ
+      year: 2019
+    - title: Research exchange, Uruguay
+      institution: Universidad de la República (UdelaR)
+      year: 2019
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Concordia Accelerator Award, Concordia University
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: In the Media
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>2026:</u> <a href='https://www.cbc.ca/news/entertainment/roblox-gaming-falling-9.7299607'>Why is gaming giant Roblox losing tens of billions in market value?</a> — CBC News, 8 August 2026."
+    - "<u>2021:</u> <a href='https://www.concordia.ca/news/stories/2021/04/07/the-video-game-industrys-problems-are-mostly-due-to-people-not-technology-concordia-researchers-argue.html'>The video game industry's problems are mostly due to people, not technology, Concordia researchers argue</a> — Concordia University News, by Patrick Lejtenyi."
