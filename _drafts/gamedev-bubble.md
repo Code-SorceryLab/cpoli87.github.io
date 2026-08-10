@@ -1,5 +1,5 @@
 ---
-title: 'Game Development Bubble'
+title: "Game Development Bubble"
 date: 2021-11-01T01:19:40-04:00
 draft: false
 tags:

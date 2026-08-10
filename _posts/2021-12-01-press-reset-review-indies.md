@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What about Indies?'
+title: "What about Indies?"
 date: 2021-12-01
 author: cristiano
 tags: opinion review
@@ -20,7 +20,7 @@ In the book "Press Reset: Ruin and Recovery in the Video Game Industry" by Jason
 
 The game market is saturated. Steam itself has more than 30K games. It is very hard to stand out or even be noticed. In this case, marketing is essential. If you are an indie developer, you might have a budget problem. I read many postmortems complaining that their marketing strategies were not efficient. Like trying to reach streamers, for example. Also, you cannot use the ["if you build it, they will come" strategy](https://youtu.be/o3c_pJ_CLJQ). It rarely works. One thing is certain, indie developers benefit a lot from the [long tail](https://en.wikipedia.org/wiki/Long_tail). The game will keep selling over the years. Slowly but surely.
 
->[in] video game industry, day-one sales were just a small part of a game’s success.
+> [in] video game industry, day-one sales were just a small part of a game’s success.
 
 This is very true, specially for indie games. It takes time to get traction. Also, it is common to add new content and bug fixes over time. Personally, I prefer to wait some months until the game is more polished so I can have a better experience playing it.
 
@@ -29,7 +29,6 @@ This is very true, specially for indie games. It takes time to get traction. Als
 <!-- ![](https://cdn.akamai.steamstatic.com/steam/apps/311690/ss_4ffa6179076975f7a50ab72a6af52a1d817a4926.1920x1080.jpg) -->
 
 I loved this quote. Specially because the game was successful. But seriously, how to even try to foresee a scenario like this?
-
 
 <!-- ### Programmers are required… oh really!?
 risk, but if there was any discipline in the

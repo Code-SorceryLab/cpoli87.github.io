@@ -6,21 +6,21 @@ tags: tech
 author: adrian
 ---
 
-# OTUGuessr 
+# OTUGuessr
 
-*A GeoGuessr-style campus exploration game for Ontario Tech University*
+_A GeoGuessr-style campus exploration game for Ontario Tech University_
 
 [https://www.otuguessr.com/](https://www.otuguessr.com/)
 
 **Created by:** Adrian Fudge & Vincent Wong
 
-## Introduction  
+## Introduction
 
-Ontario Tech University has a large and diverse campus with many hidden or lesser-known spots that students may never discover during their time at the school. As students ourselves, we noticed that many people tend to stick to the same few buildings and paths, missing out on some genuinely great areas across campus. 
+Ontario Tech University has a large and diverse campus with many hidden or lesser-known spots that students may never discover during their time at the school. As students ourselves, we noticed that many people tend to stick to the same few buildings and paths, missing out on some genuinely great areas across campus.
 
 We built **OTUGuessr** to help change that.
 
-OTUGuessr is a GeoGuessr-style web game designed specifically for the Ontario Tech University campus. The goal of the project was to create  something fun and interactive that would encourage students to explore their surroundings, improve campus culture, and give both new and long-time students a new way to engage with the university.
+OTUGuessr is a GeoGuessr-style web game designed specifically for the Ontario Tech University campus. The goal of the project was to create something fun and interactive that would encourage students to explore their surroundings, improve campus culture, and give both new and long-time students a new way to engage with the university.
 
 This was a personal project between two students, built outside of any course requirements, with the goal of gaining real-world development experience and showcasing our technical skills. After deploying the application, we saw hundreds of users within the first 24 hours, which was incredibly motivating and validated the idea.
 
@@ -32,7 +32,7 @@ Players are shown an image taken somewhere on campus along with an interactive m
 
 After several rounds, players are given a final score and can submit their name to appear on a global leaderboard.
 
-The target audience is  students --- from first-years seeing campus for the first time to postgraduates who may still discover places they've never noticed before.
+The target audience is students --- from first-years seeing campus for the first time to postgraduates who may still discover places they've never noticed before.
 
 ## How the Game Works
 
@@ -45,7 +45,7 @@ The target audience is  students --- from first-years seeing campus for the firs
 
 <!-- ## Demo & Media
 
-  
+
 
 ![Gameplay view](images/gameplay.png)
 
@@ -55,13 +55,12 @@ The target audience is  students --- from first-years seeing campus for the firs
 
 ![Leaderboard](images/leaderboard.png) -->
 
-
 ## Tech Stack
 
--  **Frontend:** React TS
--  **Mapping:** Leaflet
--  **Backend / Cloud:** Firebase
--  **Hosting:** Vercel
+- **Frontend:** React TS
+- **Mapping:** Leaflet
+- **Backend / Cloud:** Firebase
+- **Hosting:** Vercel
 
 ## High-Level System Design
 
@@ -73,10 +72,9 @@ Image + Coordinates → User Guess → Distance Calculation → Score Computed �
 
 We implemented the **Haversine formula** to calculate the shortest distance between two points on Earth using latitude and longitude.
 
-### Image Performance 
+### Image Performance
 
 Images were resized and compressed before upload to significantly improve load times and responsiveness.
-  
 
 ## What We Learned
 

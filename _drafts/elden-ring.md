@@ -13,11 +13,11 @@ The game cost around U$60,00. Which makes it U$720M.
 
 Platforms have a good cut from that. Steam and Sony normally ask for 30% while Microsoft a bit less. Let's round to 25%. Which makes it U$540M.
 
-Game development is expensive, according to Jason Schereier, it costs around U$10.000,00/month per developer (in USA) to develop a AAA game. Elden Ring had around 6 years of development. But probably not in full production. So let's say 4 years in full production with 300 developers: 300 * 10.000 * 12 * 4 = U$144M. 
+Game development is expensive, according to Jason Schereier, it costs around U$10.000,00/month per developer (in USA) to develop a AAA game. Elden Ring had around 6 years of development. But probably not in full production. So let's say 4 years in full production with 300 developers: 300 * 10.000 * 12 * 4 = U$144M.
 
 Also, they used their proprietary game engine, so nothing to take from it.
 
-We still have U$396M. 
+We still have U$396M.
 
 Now the marketing. Which usually mimics the same budget of development. So let's say 100M. Which makes it U$296M.
 

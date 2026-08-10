@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Future of Game Development'
+title: "The Future of Game Development"
 date: 2021-10-01
 author: cristiano
 tags: opinion review
@@ -11,7 +11,6 @@ In the book **Press Reset: Ruin and Recovery in the Video Game Industry by Jason
 I will tell you: small studios with specific specialties:
 
 > "'I think the future is going to be: there's a small team in charge of the creative vision, and then all of the other work is outsourced,' This is one vision of a sustainable model for video game development: dedicated outsourcing houses that a group of core creative leads can hire as needed."
-
 
 ... and the current state-of-practice:
 

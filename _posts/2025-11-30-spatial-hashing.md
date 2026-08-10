@@ -13,18 +13,19 @@ To solve this in PEAK, we implemented **Spatial Hashing**, a broad-phase optimiz
 ## PEAK – Platform Engine by Al and Kevin
 
 **PEAK** is a small SMB1-style RL/game engine with:
-A custom Mario-like environment (MarioCore) using Pygame. A modular reward layer (mario.py) that shapes behavior into different "personas". 
+A custom Mario-like environment (MarioCore) using Pygame. A modular reward layer (mario.py) that shapes behavior into different "personas".
 
 Clean Gym-style API: reset(), step(action), get_action_space(), get_observation_space().
 
 **The core loop is:**
+
 1. Env loads a level from ASCII.
 2. Player + enemies/coins/powerups are spawned.
 3. Each step(action):
-	- Apply input → physics → collisions.
-	- Update game objects, anti-stall logic, camera.
-	- Compute reward and info.
-	- Return (obs, reward, terminated, info).
+   - Apply input → physics → collisions.
+   - Update game objects, anti-stall logic, camera.
+   - Compute reward and info.
+   - Return (obs, reward, terminated, info).
 
 ## The Architecture: Why Two Hashes?
 
@@ -37,8 +38,8 @@ We selected **Option 2: Dual Spatial Hashes**. In this architecture, we maintain
 
 ### Why this approach?
 
-  * **Performance:** By keeping the static geometry in a read-only hash, we maximize cache efficiency and avoid the overhead of re-inserting thousands of wall tiles every frame.
-  * **Separation of Concerns:** This mimics industry standards used in engines like Unity and games like *Celeste* (which separates "Solids" from "Actors"). It prevents accidental modification of level geometry.
+- **Performance:** By keeping the static geometry in a read-only hash, we maximize cache efficiency and avoid the overhead of re-inserting thousands of wall tiles every frame.
+- **Separation of Concerns:** This mimics industry standards used in engines like Unity and games like _Celeste_ (which separates "Solids" from "Actors"). It prevents accidental modification of level geometry.
 
 ## Implementation Details
 
@@ -53,7 +54,7 @@ class SpatialHash:
     def __init__(self, cell_size=64):
         self.cell_size = cell_size
         # Maps (cx, cy) -> List[obj]
-        self.contents = {} 
+        self.contents = {}
 ```
 
 ### 2\. Cell Addressing

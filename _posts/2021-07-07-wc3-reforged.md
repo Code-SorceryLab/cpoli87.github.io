@@ -6,7 +6,7 @@ author: cristiano
 tags: gameindustry opinion
 ---
 
-__`greedisgood` is the code to get more money on the game__
+**`greedisgood` is the code to get more money on the game**
 
 War craft 3 Reforged just went out and it was not what fans were expecting. Basically [Blizzard showed something and not delivering](https://www.youtube.com/watch?v=kwG5ct900B0), even after [postponing the final release some months](https://www.hardwarezone.com.sg/tech-news-warcraft-3-reforged-delayed-to-2020).
 
@@ -37,4 +37,3 @@ More patches are coming for sure and the game will improve, but how long will it
 So far the player are at full speed in the rage train, asking refunds and [down voting the Metacritic note](https://www.metacritic.com/game/pc/warcraft-iii-reforged). We will need to wait until the dust settle and the train slow down to see how Blizzard will handle this situation.
 
 As a kind reminder to myself, consider three times before pre-ordering something.
-

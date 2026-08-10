@@ -7,13 +7,13 @@ nav: true
 nav_order: 6
 ---
 
-* CSCI 3060U - Software QA (Winter 2026)
-* CSCI 4160U - Interactive Media (Winter 2026)
-* CSCI 4230U - Advanced Web Development (Fall 2025)
-* CSCI 4440U - Topics in Computer Science I (Fall 2025)
-* CSCI 5160G - Topics in Software Design (Winter 2025)
-* CSCI 4160U - Interactive Media (Winter 2025)
-* CSCI 4230U - Advanced Web Development (Fall 2024)
+- CSCI 3060U - Software QA (Winter 2026)
+- CSCI 4160U - Interactive Media (Winter 2026)
+- CSCI 4230U - Advanced Web Development (Fall 2025)
+- CSCI 4440U - Topics in Computer Science I (Fall 2025)
+- CSCI 5160G - Topics in Software Design (Winter 2025)
+- CSCI 4160U - Interactive Media (Winter 2025)
+- CSCI 4230U - Advanced Web Development (Fall 2024)
 
 <!-- ## CSCI 5160G Topics in Software Design (Winter 2025)
 

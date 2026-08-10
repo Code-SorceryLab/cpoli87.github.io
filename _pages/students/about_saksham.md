@@ -1,7 +1,8 @@
 # Saksham Tejpal
+
 > Undergraduate Honours Researcher
 
-<!-- **Start:** September 2025 · **Expected graduation:** May 2026 *(optional)*  
+<!-- **Start:** September 2025 · **Expected graduation:** May 2026 *(optional)*
 **Email:** saksham.tejpal@ontariotechu.net
 
 I work on building large-scale automated pipelines for extracting, cleaning and analysing, video game patch notes to enable reproducible datasets, and getting insights of game development trends.
@@ -19,7 +20,7 @@ I work on building large-scale automated pipelines for extracting, cleaning and 
 ### Skills
 
 - **Methods:** API integration, data engineering, text processing, NLP processing
-- **Tools:** Steam Web API, Python, Jupyter Notebooks, JSON 
+- **Tools:** Steam Web API, Python, Jupyter Notebooks, JSON
 - **Languages:** Python
 
 ### Links

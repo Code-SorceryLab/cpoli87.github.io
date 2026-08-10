@@ -15,7 +15,7 @@ thumbnail: assets/img/research-seminar-26.jpg
 <div class="caption">
     The students liked it... I guess :).
 </div>
-    
+
 Today I ran my first “Research 101” mini-seminar with some of my honours thesis and grad students. We talked about what actually makes a research problem (vs. just a project), how to turn vague ideas into concrete questions, and how to build a realistic plan around methods, data, and time.
 
 Students also presented their current projects, which sparked good discussions about scope, feasibility, and next steps.

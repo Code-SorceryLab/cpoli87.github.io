@@ -1,5 +1,5 @@
 ---
-title: 'GotY went to Sekiro and why that is good'
+title: "GotY went to Sekiro and why that is good"
 date: 2019-12-13
 draft: true
 tags:
