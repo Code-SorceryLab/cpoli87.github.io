@@ -249,7 +249,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("crispolito87", "_blank");
+          window.open("https://bsky.app/profile/crispolito87.bsky.social", "_blank");
         },
       },{
         id: 'social-cv',
