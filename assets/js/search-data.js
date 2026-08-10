@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Code &amp; Sorcery Lab - Empirical Game Research  Publications are listed on the publications page.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-research-visit-and-seminar-at-ufmg",
         
           title: "Research visit and seminar at UFMG",
@@ -187,12 +194,7 @@ ninja.data = [{
             window.location.href = "/blog/2021/wc3-reforged/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-interrogating-generative-npcs",
+      },{id: "projects-interrogating-generative-npcs",
           title: 'Interrogating generative NPCs',
           description: "Can an LLM-driven character hold up under pressure? Building a framework to find out.",
           section: "Projects",handler: () => {

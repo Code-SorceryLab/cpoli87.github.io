@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cpoli87.github.io/sitemap.xml
+Sitemap: https://cpoli.live/sitemap.xml
