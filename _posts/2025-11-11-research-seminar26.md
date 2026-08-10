@@ -1,15 +1,15 @@
 ---
 layout: post
 date: 2025-11-11
-inline: false
 related_posts: false
+tags: news
 title: Research Seminar
-thumbnail: assets/img/research-seminar-26.jpg
+thumbnail: assets/img/research-seminar-26.jpeg
 ---
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/research-seminar-26.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/research-seminar-26.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

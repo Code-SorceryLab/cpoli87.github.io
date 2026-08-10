@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ontario Tech University, Oshawa, ON, Canada.
+subtitle: Code & Sorcery Lab - Empirical Game Research <br> Ontario Tech University, Oshawa, ON, Canada.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>SCI 2065</p>
     <p>Ontario Tech University</p>
@@ -16,15 +16,10 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
-
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 
 Hi, my name is Cristiano Politowski.
@@ -41,4 +36,6 @@ My research interests include _Video Game Development_, _Software Testing_, _Art
 
 <!-- To see the list of my publications, please visit my [Google scholar profile](https://scholar.google.com/citations?hl=en&user=B8qnQe0AAAAJ) or my [DBLP page](https://dblp.org/pid/180/3296.html). -->
 
-<!-- If you like any of these subjects, reach me at **cristiano.politowski@ontariotechu.ca**. -->
+---
+
+**Interested in this kind of work?** The **Code & Sorcery Lab** works where game development, software engineering, and artificial intelligence meet — we build games, break them, and measure what happens. If you are a prospective graduate student, an undergraduate looking for a thesis project, or a researcher who would like to collaborate, send me an <a href="mailto:{{ site.data.socials.email | encode_email }}">email</a> and let's work together.

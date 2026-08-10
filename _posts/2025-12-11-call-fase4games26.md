@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2025-12-11
-inline: false
 related_posts: false
+tags: news
 title: 📢 Call for Submissions - FaSE4Games’26 @ FSE 2026 (Montreal, Canada)
 ---
 

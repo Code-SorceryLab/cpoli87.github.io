@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Ongoing work in the lab. If something here interests you, get in touch.
+description: Code & Sorcery Lab - Empirical Game Research <br> Ongoing work in the lab. If something here interests you, get in touch.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [llm npcs, playtesting agents, game software engineering, engines and performance, generative content]
 horizontal: false
 ---
