@@ -2,7 +2,7 @@
 layout: page
 title: Graduate Research Assistant — Code Challenge
 description: Build a Super Mario Bros–style platformer and train an agent to play it with Deep Reinforcement Learning (PPO).
-permalink: /apply/grad-challenge-0388436748adf97e/
+permalink: /apply/grad-challenge/
 nav: false
 sitemap: false
 noindex: true
