@@ -32,8 +32,17 @@ profiles:
     content: students/about_laurent.md
     graduated: true
 
+  - image: danylo.jpg
+    content: students/about_danylo.md
+
   - section: Undergraduate students
-    image: alex.png
+  - image: teni.jpg
+    content: students/about_teni.md
+
+  - image: sebastian.jpg
+    content: students/about_sebastian.md
+
+  - image: alex.png
     content: students/about_alex.md
     graduated: true
   - image: saffron.jpg
@@ -43,12 +52,17 @@ profiles:
     content: students/about_saksham.md
     graduated: true
   - content: students/about_rabia.md
+    image: rabia.jpg
     graduated: true
   - content: students/about_daniel.md
+    image: daniel.jpeg
     graduated: true
   - content: students/about_ryan.md
     graduated: true
   - image: saahir.png
     content: students/about_saahir.md
+    graduated: true
+  - image: mirisan.png
+    content: students/about_mirisan.md
     graduated: true
 ---
