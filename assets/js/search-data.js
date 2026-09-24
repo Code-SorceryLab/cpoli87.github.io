@@ -194,7 +194,12 @@ ninja.data = [{
             window.location.href = "/blog/2021/wc3-reforged/";
           
         },
-      },{id: "projects-interrogating-generative-npcs",
+      },{id: "projects-explaining-our-ai-research-paper-from-inside-minecraft",
+          title: 'Explaining Our AI Research Paper from Inside Minecraft',
+          description: "Our latest paper, RIDGE, accepted at IEEE CoG 2026, explores how state-conditioned reward blending allows a single deep RL agent to master multiple play styles.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2026-09-24-ridge-minecraft/";
+            },},{id: "projects-interrogating-generative-npcs",
           title: 'Interrogating generative NPCs',
           description: "Can an LLM-driven character hold up under pressure? Building a framework to find out.",
           section: "Projects",handler: () => {
