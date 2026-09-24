@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-research-visit-and-seminar-at-ufmg",
+        },{id: "post-explaining-our-ai-research-paper-from-inside-minecraft",
+        
+          title: "Explaining Our AI Research Paper from Inside Minecraft",
+        
+        description: "Our latest paper, RIDGE, accepted at IEEE CoG 2026, explores how state-conditioned reward blending allows a single deep RL agent to master multiple play styles.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ridge-minecraft/";
+          
+        },
+      },{id: "post-research-visit-and-seminar-at-ufmg",
         
           title: "Research visit and seminar at UFMG",
         
