@@ -4,7 +4,10 @@ title: Explaining Our AI Research Paper from Inside Minecraft
 date: 2026-09-24
 description: Our latest paper, RIDGE, accepted at IEEE CoG 2026, explores how state-conditioned reward blending allows a single deep RL agent to master multiple play styles.
 tags: news publication
+thumbnail: assets/posts/ridge-minecraft/ridge.jpg
 ---
+
+{% include youtube.html id="1eOKtZ-Df9g" width="560" height="315" %}
 
 We recently went inside Minecraft to explain our new research paper, *RIDGE: State-Conditioned Reward Blending for Behavioral Convergence in Deep RL Game Agents*. The paper was accepted for an oral presentation at the IEEE Conference on Games (CoG) 2026.
 
