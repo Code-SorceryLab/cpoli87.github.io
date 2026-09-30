@@ -1,3 +1,3 @@
 # Sebastian Desaulniers
 
-> Lab Assistant
+> Lab assistant
