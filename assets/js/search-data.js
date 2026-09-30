@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-explaining-our-ai-research-paper-from-inside-minecraft",
+        },{id: "post-llm-based-npcs-in-video-games-a-systematic-mapping-study",
+        
+          title: "LLM-Based NPCs in Video Games: A Systematic Mapping Study",
+        
+        description: "Can LLM-Based Video Game NPCs Enhance Player Immersion?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/llm-based-npcs/";
+          
+        },
+      },{id: "post-explaining-our-ai-research-paper-from-inside-minecraft",
         
           title: "Explaining Our AI Research Paper from Inside Minecraft",
         
