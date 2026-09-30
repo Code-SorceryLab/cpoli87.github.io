@@ -1,3 +1,3 @@
 # Danylo Hretskyi
 
-> MITACS Global Link student
+> Undergraduate Honours Researcher - MITACS Global Link student

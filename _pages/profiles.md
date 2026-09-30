@@ -32,15 +32,16 @@ profiles:
     content: students/about_laurent.md
     graduated: true
 
-  - image: danylo.jpg
-    content: students/about_danylo.md
-
   - section: Undergraduate students
   - image: teni.jpg
     content: students/about_teni.md
 
   - image: sebastian.jpg
     content: students/about_sebastian.md
+
+  - image: danylo.jpg
+    content: students/about_danylo.md
+    graduated: true
 
   - image: alex.png
     content: students/about_alex.md
