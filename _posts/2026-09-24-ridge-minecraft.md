@@ -7,7 +7,7 @@ tags: news publication
 thumbnail: assets/posts/ridge-minecraft/ridge.jpg
 ---
 
-{% include youtube.html id="1eOKtZ-Df9g" width="560" height="315" %}
+{% include youtube.liquid id="1eOKtZ-Df9g" width="560" height="315" %}
 
 We recently went inside Minecraft to explain our new research paper, *RIDGE: State-Conditioned Reward Blending for Behavioral Convergence in Deep RL Game Agents*. The paper was accepted for an oral presentation at the IEEE Conference on Games (CoG) 2026.
 

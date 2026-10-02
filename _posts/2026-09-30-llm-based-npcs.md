@@ -8,7 +8,7 @@ author: dilan
 thumbnail: assets/posts/llm-based-npcs/thumbnail.png
 ---
 
-{% include youtube.html id="hEYQ04oiRFE" width="560" height="315" %}
+{% include youtube.liquid id="hEYQ04oiRFE" width="560" height="315" %}
 
 With this review, I wanted to see how far AI has taken the capabilities of NPCs in video games. 
 
