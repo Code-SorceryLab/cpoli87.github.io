@@ -1,0 +1,99 @@
+---
+layout: default
+title: People
+permalink: /people/
+nav: true
+nav_order: 3
+---
+
+<!-- Category Queries -->
+{% assign lab_directors = site.data.members | where: "category", "lead-professor" %}
+{% assign collaborators = site.data.members | where: "category", "collaborator" %}
+{% assign active_grads = site.data.members | where: "category", "graduate" | where: "active", true %}
+{% assign active_undergrads = site.data.members | where: "category", "undergraduate" | where: "active", true %}
+{% assign active_visitors = site.data.members | where: "category", "visitor" | where: "active", true %}
+{% assign alumni = site.data.members | where: "active", false | reverse %}
+
+<div class="profiles-container mt-4">
+
+  <!-- 1. Lab Director (Open by default / non-collapsible hero section) -->
+  <section class="mb-4">
+    <h3 class="font-weight-bold text-center mb-3">Lab Director</h3>
+    <div class="row">
+      {% for member in lab_directors %}
+        {% include profile_card.liquid member=member %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- 2. Collaborators -->
+  {% if collaborators.size > 0 %}
+    <details class="profile-section mb-4" open>
+      <summary class="h3 font-weight-bold cursor-pointer text-center mb-3">
+        Collaborators
+      </summary>
+      <div class="row">
+        {% for member in collaborators %}
+          {% include profile_card.liquid member=member %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
+
+  <!-- 3. Graduate Students -->
+  {% if active_grads.size > 0 %}
+    <details class="profile-section mb-4" open>
+      <summary class="h3 font-weight-bold cursor-pointer text-center mb-3">
+        Graduate Students
+      </summary>
+      <div class="row">
+        {% for member in active_grads %}
+          {% include profile_card.liquid member=member %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
+
+  <!-- 4. Undergraduate Researchers -->
+  {% if active_undergrads.size > 0 %}
+    <details class="profile-section mb-4" open>
+      <summary class="h3 font-weight-bold cursor-pointer text-center mb-3">
+        Undergraduate Researchers
+      </summary>
+      <div class="row">
+        {% for member in active_undergrads %}
+          {% include profile_card.liquid member=member %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
+
+  <!-- 5. Visiting Researchers -->
+  {% if active_visitors.size > 0 %}
+    <details class="profile-section mb-4" open>
+      <summary class="h3 font-weight-bold cursor-pointer text-center mb-3">
+        Visiting Researchers
+      </summary>
+      <div class="row">
+        {% for member in active_visitors %}
+          {% include profile_card.liquid member=member %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
+
+  <!-- 6. Alumni (Collapsed by default) -->
+  {% if alumni.size > 0 %}
+    <details class="profile-section mb-4">
+      <summary class="h3 font-weight-bold cursor-pointer text-center mb-3">
+        Alumni
+      </summary>
+      <div class="row">
+        {% for member in alumni %}
+          {% include profile_card.liquid member=member %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
+
+</div>

@@ -1,0 +1,163 @@
+{% assign member = include.member %}
+{% assign has_pubs = false %}
+{% if member.publications and member.publications.size > 0 and member.category != 'lead-professor' and member.category != 'collaborator' %}
+  {% assign has_pubs = true %}
+{% endif %}
+
+<div class="col-12 col-md-6 mb-4 px-2">
+  <!-- pb-2 reduces bottom padding inside the card; removed h-100 to eliminate vertical stretching -->
+  <div class="card pt-2 px-2 pb-1 profile-card border {% unless member.active %}opacity-85 bg-light{% endunless %}">
+    <div class="d-flex align-items-start">
+      
+      <!-- 1. Left Column: Profile Picture & Social Icons -->
+      <div class="profile-left flex-shrink-0 mr-3 text-center">
+        <div class="profile-pic mb-1">
+          {% if member.image and member.image != "" %}
+			{% assign image_path = member.image | prepend: "assets/img/" %}
+			{% include figure.liquid alt=member.name path=image_path class="rounded" width="110px" height="110px" %}
+          {% else %}
+            <div class="border rounded bg-light d-flex align-items-center justify-content-center text-muted" style="width: 85px; height: 85px;">
+              <small>pic</small>
+            </div>
+          {% endif %}
+        </div>
+	  </div>
+
+
+      <!-- 2. Middle & Right: Info/Bio + Publications -->
+      <div class="profile-body flex-grow-1">
+        <div class="row no-gutters">
+          
+          <!-- Middle: Name, Affiliations, and Bio -->
+          <div class="col-12 {% if has_pubs %}col-lg-7 pr-lg-2{% endif %} mb-1 mb-lg-0">
+            
+            <div class="d-flex flex-wrap align-items-baseline mb-1">
+              <h5 class="card-title font-weight-bold mb-0 mr-1" style="font-size: 1.05rem;">
+                {% if member.website and member.website != "" %}
+                  <a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">{{ member.name }}</a>
+                {% else %}
+                  {{ member.name }}
+                {% endif %}
+                {% if member.post_nominals %}
+                  <span class="text-muted font-weight-normal small">, {{ member.post_nominals }}</span>
+                {% endif %}
+              </h5>
+
+              {% if member.period and member.period != "" %}
+                <span class="text-muted small text-nowrap">
+                  ({{ member.period }})
+                </span>
+              {% endif %}
+            </div>
+
+
+<!-- Role / Degree -->
+            <div class="text-muted small mb-1">
+              <em>{{ member.title | default: member.degree }}</em>
+            </div>
+
+            <!-- Education and Inline Affiliation Row (Badge Removed) -->
+            {% if member.education or member.affiliation %}
+              <div class="text-secondary small mb-1">
+                {% if member.education and member.education != "" %}
+                  {{ member.education }}
+                {% endif %}
+                {% if member.education and member.education != "" and member.affiliation and member.affiliation != "" %}
+                  <span class="mx-1">&bull;</span>
+                {% endif %}
+                {% if member.affiliation and member.affiliation != "" %}
+					<span><em>{{ member.affiliation }}</em></span>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            <!-- Special Project / Sub-type Badge (e.g. Undergraduate Thesis, MITACS) -->
+            {% if member.sub_type and member.sub_type != "" %}
+              <div class="mb-1">
+				  <span class="small text-muted"><em>{{ member.sub_type }}</em></span>
+              </div>
+            {% endif %}
+
+            {% if member.co_supervisor and member.co_supervisor != "" %}
+              <div class="small text-muted mb-1">
+                Co-supervised with <strong>{{ member.co_supervisor }}</strong>
+              </div>
+            {% endif %}
+           {% if member.destination and member.destination != "" %}
+              <div class="small text-dark mb-1">
+                <strong>Now:</strong> {{ member.destination }}
+              </div>
+            {% endif %}
+
+            <!-- Optional Bio -->
+            {% if member.bio and member.bio != "" %}
+              <p class="card-text small text-muted mt-1 mb-0" style="line-height: 1.35;">
+                {{ member.bio }}
+              </p>
+            {% elsif member.info and member.info != "" %}
+              <p class="card-text small text-muted mt-1 mb-0" style="line-height: 1.35;">
+                {{ member.info }}
+              </p>
+            {% endif %}
+          </div>
+
+          <!-- 3. Right: Publications Column -->
+          {% if has_pubs %}
+            <div class="col-12 col-lg-5 pl-lg-2 border-left-lg">
+              <span class="font-weight-bold small text-uppercase text-muted d-block mb-1" style="font-size: 0.7rem; letter-spacing: 0.5px;">
+                Publications
+              </span>
+
+              <!-- First / Most Recent Publication -->
+              {% assign first_pub = member.publications.first %}
+              <div class="small text-muted mb-1" style="line-height: 1.25;">
+                &bull;
+                {% if first_pub.url and first_pub.url != "" %}
+                  <a href="{{ first_pub.url }}" target="_blank" rel="noopener noreferrer" class="text-reset font-weight-medium">
+                    {{ first_pub.title }}
+                  </a>
+                {% else %}
+                  <span class="font-weight-medium text-dark">{{ first_pub.title }}</span>
+                {% endif %}
+                {% if first_pub.venue and first_pub.venue != "" %}
+                  <span class="text-secondary">({{ first_pub.venue }})</span>
+                {% endif %}
+              </div>
+
+              <!-- Expandable Extra Publications -->
+              {% if member.publications.size > 1 %}
+                {% assign extra_count = member.publications.size | minus: 1 %}
+                <details class="extra-publications mt-1 mb-0">
+                  <summary class="small font-weight-medium text-primary cursor-pointer user-select-none">
+                    <span class="show-text">+{{ extra_count }} more paper{% if extra_count > 1 %}s{% endif %}</span>
+                    <span class="hide-text">Show less</span>
+                  </summary>
+                  <ul class="list-unstyled mb-0 mt-1 pl-0">
+                    {% for pub in member.publications offset: 1 %}
+                      <li class="mb-1 text-muted small" style="line-height: 1.25;">
+                        &bull;
+                        {% if pub.url and pub.url != "" %}
+                          <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer" class="text-reset font-weight-medium">
+                            {{ pub.title }}
+                          </a>
+                        {% else %}
+                          <span class="font-weight-medium text-dark">{{ pub.title }}</span>
+                        {% endif %}
+                        {% if pub.venue and pub.venue != "" %}
+                          <span class="text-secondary">({{ pub.venue }})</span>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </details>
+              {% endif %}
+            </div>
+          {% endif %}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+

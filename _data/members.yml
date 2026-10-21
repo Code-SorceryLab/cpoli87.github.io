@@ -1,0 +1,206 @@
+- name: "Cristiano Politowski"
+  category: "lead-professor"
+  title: "Assistant Professor"
+  credentials: "Ph.D."
+  active: true
+  period: "2024 – Present"
+  image: "prof_pic.jpg"
+  website: "https://cpoli.live"
+  bio: "todo"
+
+- name: "Dilan Milan"
+  category: "graduate"
+  degree: "M.Sc."
+  period: "Fall 2025 – Present"
+  co_supervisor: ""
+  active: true
+  website: ""
+  bio: ""
+  publications:
+    - title: "LLM-Based NPCs in Video Games: A Systematic Mapping Study"
+      url: "https://ieeexplore.ieee.org/document/11704098"
+  image: "dilan.jpeg"
+
+- name: "Kevin Christopher Chua"
+  category: "graduate"
+  degree: "M.Sc."
+  period: "Summer 2026 – Present"
+  co_supervisor: "Dr. Ali Neshati"
+  active: true
+  website: ""
+  bio: ""
+  image: "kevin.jpeg"
+
+- name: "Mohame Al Musqi Mohamed Shifan"
+  category: "graduate"
+  degree: "M.Sc."
+  period: "Summer 2026 – Present"
+  co_supervisor: "Dr. Loutfouz Zaman"
+  active: true
+  website: ""
+  bio: ""
+  image: "al.png"
+
+- name: "Charon Takov"
+  category: "graduate"
+  degree: "M.Sc."
+  period: "Fall 2026 – Present"
+  co_supervisor: "Dr. Muhammad Usman"
+  active: true
+  website: ""
+  bio: ""
+  image: "charon.jpeg"
+  
+- name: "Caio Varalta"
+  category: "graduate"
+  degree: "M.Sc."
+  affiliation: "University of São Paulo"
+  period: ""
+  co_supervisor: "Leonardo Tórtoro Pereira" 
+  active: true
+  website: ""
+  bio: ""
+  image: "caio.jpeg"
+  
+- name: "Yohan Duarte Pessanha"
+  category: "graduate"
+  degree: "Ph.D."
+  affiliation: "Universidade Federal de São Carlos"
+  period: ""
+  co_supervisor: "Andre Takeshi Endo"
+  active: true
+  website: ""
+  bio: ""
+  image: "yohan.png"
+
+- name: "Laurent Voisart"
+  category: "graduate"
+  degree: "M.Sc."
+  affiliation: "Concordia University"
+  period: ""
+  co_supervisor: "Yann-Gaël Guéhéneuc"
+  active: false
+  website: ""
+  bio: ""
+  image: "laurent.jpeg"
+ 
+- name: "Oluwateniola “Teni” S. Adegbite"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  co_supervisor: ""
+  active: true
+  website: ""
+  bio: ""
+  image: "teni.jpg"
+
+- name: "Sebastian Desaulniers"
+  category: "undergraduate"
+  sub_type: "Lab Assistant"
+  degree: "B.Sc."
+  period: ""
+  co_supervisor: ""
+  active: true
+  website: ""
+  bio: ""
+  image: "sebastian.jpg"
+ 
+- name: "Danylo Hretskyi"
+  category: "undergraduate"
+  sub_type: "Honours Thesis"
+  affiliation: "MITACS Global Link"
+  degree: "B.Sc."
+  period: ""
+  co_supervisor: ""
+  active: false
+  website: ""
+  bio: ""
+  image: "danylo.jpg"
+
+- name: "Alex Lowe"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  co_supervisor: "Ali Neshati"
+  active: false
+  website: ""
+  bio: ""
+  image: "alex.png"
+
+- name: "Saffron Birch"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  co_supervisor: "Mariana Shimabukuro"
+  active: false
+  website: ""
+  bio: ""
+  image: "saffron.jpg"
+
+- name: "Saksham Tejpal"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  active: false
+  website: ""
+  bio: ""
+  image: "saksham.jpg"
+
+- name: "Rabia Chattha"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  active: false
+  website: ""
+  bio: ""
+  image: "rabia.jpg"
+
+- name: "Daniel Baba"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  active: false
+  website: ""
+  bio: ""
+  image: "daniel.jpeg"
+
+- name: "Ryan Ahlborn"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  period: ""
+  active: false
+  website: ""
+  bio: ""
+  image: ""
+
+- name: "Saahir Dhani"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  degree: "B.Sc."
+  co_supervisor: "Jeremy Bradbury"
+  period: ""
+  active: false
+  website: ""
+  bio: ""
+  image: "saahir.png"
+
+- name: "Mirisan Ravindran"
+  category: "undergraduate"
+  sub_type: "Undergraduate Honours Researcher"
+  affiliation: "MITACS Global Link"
+  degree: "B.Sc."
+  period: ""
+  co_supervisor: ""
+  active: false
+  website: ""
+  bio: ""
+  image: "mirisan.png"
+
+

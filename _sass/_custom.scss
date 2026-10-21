@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+  .border-left-lg {
+    border-left: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.08));
+  }
+}
+
+.profile-socials a:hover {
+  color: var(--global-theme-color) !important;
+  text-decoration: none;
+}
