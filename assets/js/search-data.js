@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-llm-based-npcs-in-video-games-a-systematic-mapping-study",
+        },{id: "post-ontario-tech-science-day-2026",
+        
+          title: "Ontario Tech Science Day 2026",
+        
+        description: "Recapping our lab&#39;s involvement in Ontario Tech&#39;s Science Day 2026",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/science-day/";
+          
+        },
+      },{id: "post-llm-based-npcs-in-video-games-a-systematic-mapping-study",
         
           title: "LLM-Based NPCs in Video Games: A Systematic Mapping Study",
         
