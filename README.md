@@ -1,6 +1,6 @@
 # Code & Sorcery Lab — website
 
-Source for [cpoli.live](https://cpoli.live), the site of the Code & Sorcery Lab (Empirical Game Research) at Ontario Tech University.
+Source for [cslab.quest](https://cslab.quest), the site of the Code & Sorcery Lab (Empirical Game Research) at Ontario Tech University.
 
 Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) theme (v0.14.7) and deployed to the `gh-pages` branch by GitHub Actions.
 
