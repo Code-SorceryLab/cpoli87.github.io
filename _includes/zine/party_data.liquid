@@ -1,0 +1,25 @@
+{%- comment -%}
+  Lab members as JSON, read from the `profiles` list in _pages/profiles.md.
+  Must be included from a page that lives in _pages/, because the profile
+  files are loaded with include_relative.
+{%- endcomment -%}
+{%- assign people_page = site.pages | where: 'permalink', '/people/' | first -%}
+<script type="application/json" id="party-data" data-people="{{ '/people/' | relative_url }}">
+  [
+  {%- for profile in people_page.profiles -%}
+    {%- if profile.content -%}
+      {%- capture md -%}{% include_relative {{ profile.content }} %}{%- endcapture -%}
+      {%- assign id = profile.content | split: '/' | last | remove: 'about_' | remove: '.md' -%}
+      {%- capture img -%}{%- if profile.image -%}{{ profile.image | prepend: 'assets/img/' | relative_url }}{%- endif -%}{%- endcapture -%}
+      {
+        "id": {{ id | jsonify }},
+        "img": {{ img | strip | jsonify }},
+        "alum": {% if profile.graduated %}true{% else %}false{% endif %},
+        "bib": {{ profile.bib_name | jsonify }},
+        "md": {{ md | jsonify }},
+        "html": {{ md | markdownify | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endif -%}
+  {%- endfor -%}
+  ]
+</script>

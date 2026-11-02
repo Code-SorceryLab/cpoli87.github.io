@@ -1,0 +1,30 @@
+---
+layout: zine
+---
+{%- comment -%}
+  Lab members, from the `profiles` list in this page's front matter.
+  The roster and character sheets are drawn by assets/zine/zine.js from
+  the JSON below; the plain list in <noscript> covers readers without JS.
+{%- endcomment -%}
+<section class="sec" aria-label="The Party">
+  <div id="sheet-slot"></div>
+  <div class="sec-head">
+    <h2 class="lino">The Party</h2>
+    <p>Everyone who has adventured with the Code &amp; Sorcery Lab. Press a member to open their character sheet.</p>
+  </div>
+  <div id="roster"></div>
+  <noscript>
+    <ul class="noscript-list">
+      {% for profile in page.profiles -%}
+        {%- if profile.content %}
+          {% capture md %}{% include_relative {{ profile.content }} %}{% endcapture %}
+          <li>{{ md | markdownify | strip_html | truncatewords: 20 }}</li>
+        {% endif -%}
+      {%- endfor %}
+    </ul>
+  </noscript>
+  {% include zine/party_data.liquid %}
+  <div id="party-spells" hidden>
+    {% bibliography --template zine_bib --group_by none %}
+  </div>
+</section>

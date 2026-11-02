@@ -1,0 +1,15 @@
+{%- assign p = include.project -%}
+{%- assign cat_labels = 'llm npcs:LLM NPCs;playtesting agents:Playtesting;game software engineering:Game SE;engines and performance:Engines;generative content:Generative'
+  | split: ';'
+-%}
+{%- assign label = p.category -%}
+{%- for pair in cat_labels -%}
+  {%- assign kv = pair | split: ':' -%}
+  {%- if kv[0] == p.category -%}{%- assign label = kv[1] -%}{%- endif -%}
+{%- endfor -%}
+<a class="card quest" href="{{ p.url | relative_url }}">
+  <span class="cat">{{ label }}</span>
+  <h3>{{ p.title }}</h3>
+  <p>{{ p.description }}</p>
+  <span class="go">View the quest</span>
+</a>

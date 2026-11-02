@@ -1,0 +1,33 @@
+---
+layout: zine
+---
+{%- comment -%} Projects, grouped by the categories listed in display_categories. {%- endcomment -%}
+{%- assign cat_names = 'llm npcs:LLM NPCs;playtesting agents:Playtesting agents;game software engineering:Game software engineering;engines and performance:Engines and performance;generative content:Generative content'
+  | split: ';'
+-%}
+<section class="sec" aria-label="Quests">
+  <div class="sec-head">
+    <h2 class="lino">Quests</h2>
+    <p>{{ page.intro | default: 'Ongoing work in the lab. If something here interests you, get in touch.' }}</p>
+  </div>
+  {% for cat in page.display_categories %}
+    {%- assign ps = site.projects | where: 'category', cat | sort: 'importance' -%}
+    {% if ps.size > 0 %}
+      {%- assign name = cat -%}
+      {%- for pair in cat_names -%}
+        {%- assign kv = pair | split: ':' -%}
+        {%- if kv[0] == cat -%}{%- assign name = kv[1] -%}{%- endif -%}
+      {%- endfor -%}
+      <div class="cat-group">
+        <div class="cat-head">
+          <h3 class="lino">{{ name }}</h3>
+        </div>
+        <div class="quests">
+          {% for p in ps -%}
+            {%- include zine/quest_card.liquid project=p -%}
+          {%- endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>

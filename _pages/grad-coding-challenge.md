@@ -1,5 +1,8 @@
 ---
 layout: page
+kicker: The Guild Seeks Adventurers
+back_url: /#guild
+back_label: Back to the guild
 title: Graduate Research Assistant — Code Challenge
 description: Build a Super Mario Bros–style platformer and train an agent to play it with Deep Reinforcement Learning (PPO).
 permalink: /apply/grad-challenge/

@@ -1,0 +1,28 @@
+---
+layout: zine
+---
+{%- comment -%} Publications: every entry in _bibliography/my.bib, grouped by year. {%- endcomment -%}
+<section class="sec" aria-label="The Codex">
+  <div class="sec-head">
+    <h2 class="lino">The Codex</h2>
+    <p>{{ page.intro | default: 'Every publication from the Code &amp; Sorcery Lab and its members.' }}</p>
+  </div>
+  <div class="controls" hidden>
+    <div class="filters" role="group" aria-label="Filter by type">
+      <button type="button" class="chip" data-kind="All" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-kind="Journal" aria-pressed="false">Journal</button>
+      <button type="button" class="chip" data-kind="Conference" aria-pressed="false">Conference</button>
+      <button type="button" class="chip" data-kind="Workshop" aria-pressed="false">Workshop</button>
+    </div>
+    <label class="search" for="q">Search<input id="q" type="search" placeholder="title, author, venue…" autocomplete="off"></label>
+  </div>
+  <div class="codex-list" id="codex-list">
+    {% bibliography --template zine_bib %}
+  </div>
+  <div class="empty" id="empty" hidden>
+    <strong class="lino">The scroll is blank</strong>
+    <p>No publications match that search.</p>
+    <button class="btn" type="button" id="reset">Clear the search</button>
+  </div>
+  {{ content }}
+</section>

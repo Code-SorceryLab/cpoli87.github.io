@@ -1,6 +1,6 @@
 # Saffron Birch
 
-> Undergraduate Honours Researcher · co-supervised with Mariana Shimabukuro
+> Master's student · starting January 2027
 
 <!-- I'm currently researching how artificial intelligence and large language models can be
 incorporated into modern video games to create virtual environments that are more dynamic and

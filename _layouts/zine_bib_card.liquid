@@ -1,0 +1,30 @@
+---
+---
+{%- comment -%}
+  jekyll-scholar template for a selected paper on the cover.
+  Used as: {% bibliography --template zine_bib_card --group_by none --query @*[selected=true]* %}
+{%- endcomment -%}
+{%- capture venue -%}{%- if entry.type == 'article' -%}{{ entry.journal }}{%- else -%}{{ entry.booktitle }}{%- endif -%}{%- endcapture -%}
+{%- capture link -%}{%- if entry.doi -%}https://doi.org/{{ entry.doi }}{%- elsif entry.url -%}{{ entry.url }}{%- else -%}{{ '/publications/' | relative_url }}{%- endif -%}{%- endcapture -%}
+<a
+  class="card codex-card"
+  href="{{ link }}"
+  data-type="{{ entry.type }}"
+  data-venue="{{ venue | strip | escape }}"
+  data-abbr="{{ entry.abbr | escape }}"
+>
+  <div class="venue">
+    <span class="vt-short">{{ entry.abbr }}</span><span>{{ entry.year }}</span>
+  </div>
+  <h3>{{ entry.title }}</h3>
+  <p>
+    {%- for a in entry.author_array limit: 4 -%}
+      {{ a.first }}
+      {{ a.last }}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+    {%- assign n = entry.author_array | size -%}
+    {%- if n > 4 %} and {{ n | minus: 4 }} more{% endif -%}
+  </p>
+  <span class="go">Read the paper</span>
+</a>

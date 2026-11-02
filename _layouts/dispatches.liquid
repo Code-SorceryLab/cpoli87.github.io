@@ -1,0 +1,47 @@
+---
+layout: zine
+---
+{%- comment -%} Blog index: every post, newest first, grouped by year. {%- endcomment -%}
+<section class="sec" aria-label="Dispatches">
+  <div class="sec-head">
+    <h2 class="lino">Dispatches</h2>
+    <p>{{ page.intro | default: 'News, lectures, visits and notes from the lab.' }}</p>
+  </div>
+  {%- assign by_year = site.posts | group_by_exp: 'p', "p.date | date: '%Y'" -%}
+  {% for y in by_year %}
+    <div class="cat-group">
+      <div class="cat-head">
+        <h3 class="lino">{{ y.name }}</h3>
+      </div>
+      <div class="blog-list">
+        {% for post in y.items %}
+          <a class="card post-card" href="{{ post.url | relative_url }}">
+            {% if post.thumbnail %}
+              <div class="thumb">
+                <div class="duo"><img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy"></div>
+              </div>
+            {% endif %}
+            <div class="txt">
+              <span class="meta">
+                {{- post.date | date: '%-d %b %Y' -}}
+                {%- include zine/authors.liquid ids=post.author prefix=' · ' -%}
+              </span>
+              <h3>{{ post.title }}</h3>
+              {% if post.description %}
+                <p>{{ post.description }}</p>
+              {% endif %}
+              {% if post.tags.size > 0 %}
+                <div class="tags">
+                  {% for t in post.tags -%}
+                    <span>{{ t }}</span>
+                  {%- endfor %}
+                </div>
+              {% endif %}
+              <span class="go">Read the dispatch</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,10 @@
+{%- comment -%} Author names from _data/authors.yml. ids: space-separated ids. {%- endcomment -%}
+{%- if include.ids -%}
+  {%- assign ids = include.ids | split: ' ' -%}
+  {{- include.prefix -}}
+  {%- for id in ids -%}
+    {%- assign a = site.data.authors[id] -%}
+    {{- a.name | default: id -}}
+    {%- unless forloop.last -%}, {% endunless -%}
+  {%- endfor -%}
+{%- endif -%}

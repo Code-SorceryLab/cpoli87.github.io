@@ -1,5 +1,5 @@
 ---
-layout: profiles
+layout: party
 permalink: /people/
 title: team
 description: Code & Sorcery Lab - Empirical Game Research
@@ -10,6 +10,7 @@ profiles:
   # To add someone: create a content file in _pages/students/ and add an entry
   # below. `section:` starts a new heading — put it on the first person of a group.
   # Member photos are square 800x800; `image:` is optional.
+  # `bib_name:` is the name as it appears in _bibliography/my.bib, when it differs.
   - align: right
     image: prof_pic.jpg
     content: about_cristiano.md
@@ -28,8 +29,11 @@ profiles:
     content: students/about_caio.md
   - image: yohan.png
     content: students/about_yohan.md
+  - image: saffron.jpg
+    content: students/about_saffron.md
   - image: laurent.jpeg
     content: students/about_laurent.md
+    bib_name: Laurent Voisard
     graduated: true
 
   - section: Undergraduate students
@@ -45,9 +49,6 @@ profiles:
 
   - image: alex.png
     content: students/about_alex.md
-    graduated: true
-  - image: saffron.jpg
-    content: students/about_saffron.md
     graduated: true
   - image: saksham.jpg
     content: students/about_saksham.md

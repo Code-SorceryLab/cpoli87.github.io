@@ -1,0 +1,15 @@
+---
+layout: zine
+---
+{%- comment -%}
+  Teaching. The page body is a Markdown list, one course per line:
+  "- CODE - Course name (Term Year)". zine.js groups it by term.
+{%- endcomment -%}
+<section class="sec" aria-label="The Training Grounds">
+  <div class="sec-head">
+    <h2 class="lino">The Training Grounds</h2>
+    <p>{{ page.intro | default: 'Courses taught at Ontario Tech University.' }}</p>
+  </div>
+  <div class="terms" id="terms"></div>
+  <div class="prose training-src" id="training-src">{{ content }}</div>
+</section>
