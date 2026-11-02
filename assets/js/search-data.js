@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-code-sorcery-lab",
+    title: "Code & Sorcery Lab",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Code &amp; Sorcery Lab - Empirical Game Research  Ongoing work in the lab. If something here interests you, get in touch.",
+          description: "Ongoing work in the Code &amp; Sorcery Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
+        },{id: "nav-dispatches",
+          title: "Dispatches",
+          description: "News, lectures, visits and notes from the Code &amp; Sorcery Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
