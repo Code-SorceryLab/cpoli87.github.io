@@ -1,6 +1,6 @@
 # Cristiano Politowski
 
-> Assistant Professor
+> Assistant Professor · started July 2024
 
 I am an Assistant Professor at [**Ontario Tech University**](https://ontariotechu.ca/), within the Computer Science group in the Faculty of Science.
 
