@@ -14,35 +14,35 @@ ninja.data = [{
           description: "Code &amp; Sorcery Lab - Empirical Game Research",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/codex/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "Ongoing work in the Code &amp; Sorcery Lab.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/quests/";
           },
         },{id: "nav-team",
           title: "team",
           description: "Code &amp; Sorcery Lab - Empirical Game Research",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/party/";
           },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/training/";
           },
         },{id: "nav-dispatches",
           title: "Dispatches",
           description: "News, lectures, visits and notes from the Code &amp; Sorcery Lab.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/dispatches/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -59,7 +59,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/science-day/";
+            window.location.href = "/dispatches/2026/science-day/";
           
         },
       },{id: "post-llm-based-npcs-in-video-games-a-systematic-mapping-study",
@@ -70,7 +70,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/llm-based-npcs/";
+            window.location.href = "/dispatches/2026/llm-based-npcs/";
           
         },
       },{id: "post-explaining-our-ai-research-paper-from-inside-minecraft",
@@ -81,7 +81,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/ridge-minecraft/";
+            window.location.href = "/dispatches/2026/ridge-minecraft/";
           
         },
       },{id: "post-research-visit-and-seminar-at-ufmg",
@@ -92,7 +92,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/seminar-ufmg/";
+            window.location.href = "/dispatches/2026/seminar-ufmg/";
           
         },
       },{id: "post-honours-thesis-class-of-2026",
@@ -103,7 +103,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/honour-thesis-f2025-w2026/";
+            window.location.href = "/dispatches/2026/honour-thesis-f2025-w2026/";
           
         },
       },{id: "post-invited-lecture-empirical-retro-game-research",
@@ -114,7 +114,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/invited-lecture/";
+            window.location.href = "/dispatches/2026/invited-lecture/";
           
         },
       },{id: "post-otuguessr-a-geoguessr-style-campus-exploration-game-for-ontario-tech-university",
@@ -125,7 +125,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/otuguessr/";
+            window.location.href = "/dispatches/2026/otuguessr/";
           
         },
       },{id: "post-code-amp-sorcery-students-at-hackhive-2026",
@@ -136,7 +136,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/hackathon-css/";
+            window.location.href = "/dispatches/2026/hackathon-css/";
           
         },
       },{id: "post-call-for-submissions-fase4games-26-fse-2026-montreal-canada",
@@ -147,7 +147,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/call-fase4games26/";
+            window.location.href = "/dispatches/2025/call-fase4games26/";
           
         },
       },{id: "post-optimizing-2d-physics-spatial-hashing",
@@ -158,7 +158,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/spatial-hashing/";
+            window.location.href = "/dispatches/2025/spatial-hashing/";
           
         },
       },{id: "post-research-seminar",
@@ -169,7 +169,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/research-seminar26/";
+            window.location.href = "/dispatches/2025/research-seminar26/";
           
         },
       },{id: "post-what-about-indies",
@@ -180,7 +180,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/press-reset-review-indies/";
+            window.location.href = "/dispatches/2021/press-reset-review-indies/";
           
         },
       },{id: "post-game-development-hacks-in-the-90s",
@@ -191,7 +191,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/gamedev-90/";
+            window.location.href = "/dispatches/2021/gamedev-90/";
           
         },
       },{id: "post-the-future-of-game-development",
@@ -202,7 +202,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/press-reset-review-future/";
+            window.location.href = "/dispatches/2021/press-reset-review-future/";
           
         },
       },{id: "post-12-reasons-why-game-development-is-software-development-or-is-it",
@@ -213,7 +213,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/press-reset-review-1/";
+            window.location.href = "/dispatches/2021/press-reset-review-1/";
           
         },
       },{id: "post-greedisgood",
@@ -224,99 +224,99 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/wc3-reforged/";
+            window.location.href = "/dispatches/2021/wc3-reforged/";
           
         },
       },{id: "projects-explaining-our-ai-research-paper-from-inside-minecraft",
           title: 'Explaining Our AI Research Paper from Inside Minecraft',
           description: "Our latest paper, RIDGE, accepted at IEEE CoG 2026, explores how state-conditioned reward blending allows a single deep RL agent to master multiple play styles.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2026-09-24-ridge-minecraft/";
+              window.location.href = "/quests/2026-09-24-ridge-minecraft/";
             },},{id: "projects-interrogating-generative-npcs",
           title: 'Interrogating generative NPCs',
           description: "Can an LLM-driven character hold up under pressure? Building a framework to find out.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/adversarial-npc-evaluation/";
+              window.location.href = "/quests/adversarial-npc-evaluation/";
             },},{id: "projects-one-agent-many-play-styles",
           title: 'One agent, many play styles',
           description: "Getting behavioural variety out of a single playtesting agent instead of training a separate one per style.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/behavioural-coverage-rl/";
+              window.location.href = "/quests/behavioural-coverage-rl/";
             },},{id: "projects-creativity-beyond-functionality",
           title: 'Creativity beyond functionality',
           description: "A large-scale look at hidden content in games: the creative work that serves no functional purpose.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/easter-eggs/";
+              window.location.href = "/quests/easter-eggs/";
             },},{id: "projects-what-ecs-design-choices-really-cost",
           title: 'What ECS design choices really cost',
           description: "Several ways to handle collisions in an Entity-Component-System architecture, and the price each one carries.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ecs-collision-tradeoffs/";
+              window.location.href = "/quests/ecs-collision-tradeoffs/";
             },},{id: "projects-automating-the-move-to-the-gpu",
           title: 'Automating the move to the GPU',
           description: "Generating GPU plumbing for ECS systems automatically, and working out at runtime when the GPU is actually worth it.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ecs-gpu-offload/";
+              window.location.href = "/quests/ecs-gpu-offload/";
             },},{id: "projects-emotional-memory-in-generative-characters",
           title: 'Emotional memory in generative characters',
           description: "Whether LLM-driven characters remember what mattered to them, and whether that is grounded in psychology.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/emotional-memory-npcs/";
+              window.location.href = "/quests/emotional-memory-npcs/";
             },},{id: "projects-translating-games-with-small-models",
           title: 'Translating games with small models',
           description: "Whether models small enough to run on an ordinary machine can translate game dialogue, including into low-resource languages.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/game-dialogue-translation/";
+              window.location.href = "/quests/game-dialogue-translation/";
             },},{id: "projects-how-games-are-maintained-after-release",
           title: 'How games are maintained after release',
           description: "What developer-written patch notes across a whole storefront reveal about post-release maintenance.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/game-maintenance-patch-notes/";
+              window.location.href = "/quests/game-maintenance-patch-notes/";
             },},{id: "projects-legacy-modernization-with-coding-agents",
           title: 'Legacy modernization with coding agents',
           description: "Putting an AI coding agent on a real industrial migration and measuring what it delivers.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/legacy-modernization-agents/";
+              window.location.href = "/quests/legacy-modernization-agents/";
             },},{id: "projects-the-llm-npc-landscape",
           title: 'The LLM-NPC landscape',
           description: "A systematic map of how large language models are being used to drive non-player characters, and where the gaps are.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/llm-npc-landscape/";
+              window.location.href = "/quests/llm-npc-landscape/";
             },},{id: "projects-generating-game-assets-end-to-end",
           title: 'Generating game assets end to end',
           description: "How far an automated pipeline can get toward usable text and art for a game character.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/multimodal-asset-generation/";
+              window.location.href = "/quests/multimodal-asset-generation/";
             },},{id: "projects-open-source-games-as-software",
           title: 'Open-source games as software',
           description: "Characterising open-source video games from a software engineering standpoint.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/open-source-games/";
+              window.location.href = "/quests/open-source-games/";
             },},{id: "projects-peak-authoring-and-training-in-one-loop",
           title: 'PEAK: authoring and training in one loop',
           description: "An open-source 2D platformer engine where you can design a level and train an agent on it without leaving the tool.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/peak-engine/";
+              window.location.href = "/quests/peak-engine/";
             },},{id: "projects-persona-based-playtesting-surveyed",
           title: 'Persona-based playtesting, surveyed',
           description: "Taking stock of persona-driven agents for automated playtesting, and how little the field agrees on.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/persona-playtesting-survey/";
+              window.location.href = "/quests/persona-playtesting-survey/";
             },},{id: "projects-staying-in-character",
           title: 'Staying in character',
           description: "Keeping a character consistent over a long conversation by working inside the model rather than the prompt.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/persona-stability/";
+              window.location.href = "/quests/persona-stability/";
             },},{id: "projects-transpiling-the-good-old-days",
           title: 'Transpiling the good old days',
           description: "Bringing games written for a long-obsolete BASIC dialect back to life on a modern runtime.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/retro-transpiling/";
+              window.location.href = "/quests/retro-transpiling/";
             },},{id: "projects-migrating-to-a-typed-language",
           title: 'Migrating to a typed language',
           description: "How JavaScript projects actually move to TypeScript, and whether code quality follows.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/typescript-migration/";
+              window.location.href = "/quests/typescript-migration/";
             },},{
         id: 'social-arxiv',
         title: 'arXiv',
