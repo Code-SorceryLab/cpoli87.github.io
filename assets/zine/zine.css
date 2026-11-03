@@ -2174,3 +2174,31 @@ h4 {
   width: 100%;
   height: auto;
 }
+.guild li a {
+  color: var(--spot);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.guild .btn {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  text-transform: none;
+}
+.guild .contact {
+  margin: 0 0 8px;
+  font: 600 11px var(--f-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bone-dim);
+}
+@media (max-width: 480px) {
+  .guild .btn {
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .guild .btn::after {
+    content: none;
+  }
+}
