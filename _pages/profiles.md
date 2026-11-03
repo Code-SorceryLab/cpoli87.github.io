@@ -1,6 +1,6 @@
 ---
 layout: party
-permalink: /people/
+permalink: /party/
 title: team
 description: Code & Sorcery Lab - Empirical Game Research
 nav: true
@@ -24,6 +24,7 @@ profiles:
   - image: al.png
     content: students/about_al.md
     bib_name: Al Muqshith Mohammed Shifan
+  - content: students/about_quang.md
   - image: charon.jpeg
     content: students/about_charon.md
   - image: caio.jpeg

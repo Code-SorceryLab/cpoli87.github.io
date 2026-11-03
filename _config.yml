@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Code & Sorcery Lab # blog_name will be displayed in your blog page
 blog_description: Empirical Game Research
-permalink: /blog/:year/:title/
+permalink: /dispatches/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -147,6 +147,7 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /quests/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -237,9 +238,9 @@ jekyll-archives:
   posts:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+      year: "/dispatches/:year/"
+      tags: "/dispatches/:type/:name/"
+      categories: "/dispatches/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 

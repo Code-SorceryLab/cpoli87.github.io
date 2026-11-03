@@ -106,7 +106,7 @@
       raw = [];
     }
   }
-  const peopleUrl = (dataEl && dataEl.dataset.people) || "/people/";
+  const peopleUrl = (dataEl && dataEl.dataset.people) || "/party/";
   raw.forEach((p) => {
     p.name = (p.md.match(/^#\s+(.+)$/m) || [, p.id])[1].trim();
   });
@@ -268,12 +268,12 @@
               .slice(0, max)
               .map(({ el, info }) => {
                 const allies = alliesOf(el, m);
-                return `<li><a href="${esc(el.dataset.link || "/publications/#" + el.id)}">${esc(el.dataset.title)}</a><span>${esc(
-                  info.short
-                )} · ${esc(el.dataset.year)}${allies ? ` · with ${allies}` : ""}</span></li>`;
+                return `<li><a href="${esc(el.dataset.link || "/codex/#" + el.id)}">${esc(el.dataset.title)}</a><span>${esc(info.short)} · ${esc(
+                  el.dataset.year
+                )}${allies ? ` · with ${allies}` : ""}</span></li>`;
               })
               .join("")}</ul>${
-              sp.length > max ? `<p style="margin-top:8px"><a class="btn" href="/publications/">All ${sp.length} in the codex</a></p>` : ""
+              sp.length > max ? `<p style="margin-top:8px"><a class="btn" href="/codex/">All ${sp.length} in the codex</a></p>` : ""
             }`
           : `<p class="ph">No spells inscribed in the codex yet.</p>`;
         slot.innerHTML = `<div class="sheet-wrap" id="sheet">

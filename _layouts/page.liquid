@@ -31,7 +31,7 @@ layout: zine
   </header>
   <div class="prose">{{ content }}</div>
   {% if is_project %}
-    {%- assign projects_page = site.pages | where: 'permalink', '/projects/' | first -%}
+    {%- assign projects_page = site.pages | where: 'permalink', '/quests/' | first -%}
     {%- assign cats = projects_page.display_categories -%}
     {%- assign list = '' | split: '' -%}
     {%- for c in cats -%}
@@ -42,7 +42,7 @@ layout: zine
       {%- if p.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
     {%- endfor -%}
     <div class="article-foot">
-      <a class="btn ghost" href="{{ '/projects/' | relative_url }}">All quests</a>
+      <a class="btn ghost" href="{{ '/quests/' | relative_url }}">All quests</a>
       {% if idx %}
         {%- assign n = list | size -%}
         {%- assign pi = idx | minus: 1 -%}

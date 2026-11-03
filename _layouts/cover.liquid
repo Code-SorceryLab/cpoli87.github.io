@@ -6,7 +6,7 @@ layout: zine
   Welcome text comes from the page body (_pages/about.md); everything else
   is pulled from posts, projects, the bibliography and the people page.
 {%- endcomment -%}
-{%- assign projects_page = site.pages | where: 'permalink', '/projects/' | first -%}
+{%- assign projects_page = site.pages | where: 'permalink', '/quests/' | first -%}
 {%- assign cats = projects_page.display_categories -%}
 {%- assign all_posts = site.posts -%}
 
@@ -93,7 +93,7 @@ layout: zine
   <div class="sec-head"><h2 class="lino">In This Issue</h2></div>
   <div class="toc-wrap">
     <ul class="toc">
-      {%- assign toc = 'Codex|/publications/|Every publication, searchable by title, author and venue.;Quests|/projects/|The research the lab is working on now.;Dispatches|/blog/|News, lectures, visits and notes from the lab.;The Party|/people/|Lab members and their character sheets.;The Guild Seeks Adventurers|#guild|Grad and undergrad positions in the lab.;The Training Grounds|/teaching/|Courses taught at Ontario Tech University.'
+      {%- assign toc = 'Codex|/codex/|Every publication, searchable by title, author and venue.;Quests|/quests/|The research the lab is working on now.;Dispatches|/dispatches/|News, lectures, visits and notes from the lab.;The Party|/party/|Lab members and their character sheets.;The Guild Seeks Adventurers|#guild|Grad and undergrad positions in the lab.;The Training Grounds|/training/|Courses taught at Ontario Tech University.'
         | split: ';'
       -%}
       {%- for row in toc -%}
@@ -126,7 +126,7 @@ layout: zine
   <div class="codex">
     {% bibliography --template zine_bib_card --group_by none --query @*[selected=true]* %}
   </div>
-  <div class="center"><a class="btn ghost" href="{{ '/publications/' | relative_url }}">Open the codex</a></div>
+  <div class="center"><a class="btn ghost" href="{{ '/codex/' | relative_url }}">Open the codex</a></div>
 </section>
 
 <svg class="sword" aria-hidden="true">
@@ -144,7 +144,7 @@ layout: zine
       {% include zine/quest_card.liquid project=p %}
     {% endfor %}
   </div>
-  <div class="center"><a class="btn ghost" href="{{ '/projects/' | relative_url }}">All quests</a></div>
+  <div class="center"><a class="btn ghost" href="{{ '/quests/' | relative_url }}">All quests</a></div>
 </section>
 
 <svg class="sword" aria-hidden="true">
@@ -171,7 +171,7 @@ layout: zine
       </a>
     {% endfor %}
   </div>
-  <div class="center"><a class="btn ghost" href="{{ '/blog/' | relative_url }}">All dispatches</a></div>
+  <div class="center"><a class="btn ghost" href="{{ '/dispatches/' | relative_url }}">All dispatches</a></div>
 </section>
 
 <svg class="sword" aria-hidden="true">
@@ -184,7 +184,7 @@ layout: zine
     <p>Some of the adventurers in the lab right now.</p>
   </div>
   <div class="roster" id="party-preview" data-count="4"></div>
-  <div class="center"><a class="btn ghost" href="{{ '/people/' | relative_url }}">Meet the whole party</a></div>
+  <div class="center"><a class="btn ghost" href="{{ '/party/' | relative_url }}">Meet the whole party</a></div>
   {% include zine/party_data.liquid %}
 </section>
 

@@ -3,8 +3,8 @@
   Must be included from a page that lives in _pages/, because the profile
   files are loaded with include_relative.
 {%- endcomment -%}
-{%- assign people_page = site.pages | where: 'permalink', '/people/' | first -%}
-<script type="application/json" id="party-data" data-people="{{ '/people/' | relative_url }}">
+{%- assign people_page = site.pages | where: 'permalink', '/party/' | first -%}
+<script type="application/json" id="party-data" data-people="{{ '/party/' | relative_url }}">
   [
   {%- for profile in people_page.profiles -%}
     {%- if profile.content -%}

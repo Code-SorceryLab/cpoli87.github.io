@@ -5,7 +5,7 @@
   Used as: {% bibliography --template zine_bib_card --group_by none --query @*[selected=true]* %}
 {%- endcomment -%}
 {%- capture venue -%}{%- if entry.type == 'article' -%}{{ entry.journal }}{%- else -%}{{ entry.booktitle }}{%- endif -%}{%- endcapture -%}
-{%- capture link -%}{%- if entry.doi -%}https://doi.org/{{ entry.doi }}{%- elsif entry.url -%}{{ entry.url }}{%- else -%}{{ '/publications/' | relative_url }}{%- endif -%}{%- endcapture -%}
+{%- capture link -%}{%- if entry.doi -%}https://doi.org/{{ entry.doi }}{%- elsif entry.url -%}{{ entry.url }}{%- else -%}{{ '/codex/' | relative_url }}{%- endif -%}{%- endcapture -%}
 <a
   class="card codex-card"
   href="{{ link }}"

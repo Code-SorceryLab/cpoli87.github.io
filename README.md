@@ -37,7 +37,7 @@ missing file builds without an error but shows as a broken image.
 
 ### Add a post
 
-Create `_posts/YYYY-MM-DD-slug.md`. The URL becomes `/blog/YYYY/slug/`, and
+Create `_posts/YYYY-MM-DD-slug.md`. The URL becomes `/dispatches/YYYY/slug/`, and
 the `date` field should match the date in the filename.
 
 ```yaml
@@ -68,7 +68,7 @@ thumbnail: assets/posts/your-slug/pic.jpg
 
 ### Add a project
 
-Create `_projects/slug.md`. The URL becomes `/projects/slug/`.
+Create `_projects/slug.md`. The URL becomes `/quests/slug/`.
 
 ```yaml
 ---
@@ -156,14 +156,14 @@ Edit the list in `_pages/teaching.md`, newest first, one course per line:
 
 The site uses a zine theme. Menu names map to pages as follows:
 
-| Menu       | URL              | Layout       | Content                |
-| ---------- | ---------------- | ------------ | ---------------------- |
-| Cover      | `/`              | `cover`      | `_pages/about.md`      |
-| Codex      | `/publications/` | `codex`      | `_bibliography/my.bib` |
-| Quests     | `/projects/`     | `quests`     | `_projects/`           |
-| Dispatches | `/blog/`         | `dispatches` | `_posts/`              |
-| Party      | `/people/`       | `party`      | `_pages/profiles.md`   |
-| Training   | `/teaching/`     | `training`   | `_pages/teaching.md`   |
+| Menu       | URL            | Layout       | Content                |
+| ---------- | -------------- | ------------ | ---------------------- |
+| Cover      | `/`            | `cover`      | `_pages/about.md`      |
+| Codex      | `/codex/`      | `codex`      | `_bibliography/my.bib` |
+| Quests     | `/quests/`     | `quests`     | `_projects/`           |
+| Dispatches | `/dispatches/` | `dispatches` | `_posts/`              |
+| Party      | `/party/`      | `party`      | `_pages/profiles.md`   |
+| Training   | `/training/`   | `training`   | `_pages/teaching.md`   |
 
 Posts and projects use `post` and `page`; both render in the zine style.
 
@@ -172,6 +172,8 @@ Posts and projects use `post` and `page`; both render in the zine style.
 - **Theme files:** `_layouts/zine*.liquid`, `_includes/zine/`,
   `assets/zine/zine.css` and `assets/zine/zine.js`. The CSS lives outside
   `assets/css/` so the deploy's PurgeCSS step leaves it alone.
+- Old URLs (`/publications/`, `/blog/…`, `/people/`, …) redirect to the new
+  ones via `_plugins/zine-redirects.rb`.
 - `mockups/` holds standalone HTML drafts and is not part of the build.
 
 ## Automation

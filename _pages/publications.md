@@ -1,6 +1,6 @@
 ---
 layout: codex
-permalink: /publications/
+permalink: /codex/
 title: publications
 description: Code & Sorcery Lab - Empirical Game Research
 nav: true
