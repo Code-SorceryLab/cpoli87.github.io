@@ -44,6 +44,10 @@ profiles:
   - image: sebastian.jpg
     content: students/about_sebastian.md
 
+  - content: students/about_matthew.md
+
+  - content: students/about_aryan.md
+
   - image: danylo.jpg
     content: students/about_danylo.md
     graduated: true
