@@ -193,6 +193,7 @@
       if (mentor) traits.push("Allied mentor: " + mentor);
       if (/mitacs/i.test(role)) traits.push("Traveller from afar (Mitacs Globalink)");
       if (c === "prof") traits.push("Leads the Code & Sorcery Lab");
+      if (Array.isArray(p.traits)) traits.push(...p.traits);
       const tmp = document.createElement("div");
       tmp.innerHTML = p.html;
       $$("h1", tmp).forEach((x) => x.remove());

@@ -1,3 +1,3 @@
 # Mirisan Ravindran
 
-> MITACS Global Link - Undergraduate Honours Researcher
+> Mitacs Globalink Undergraduate Honours Researcher · co-supervised with Jeremy Bradbury

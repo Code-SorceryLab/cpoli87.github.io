@@ -124,7 +124,7 @@ cards within a category, lowest first. Do not put blog posts in `_projects/`.
    someone finishes, add `graduated: true`. Keep their entry rather than
    deleting it. If your name in BibTeX differs from the `# Full Name` line,
    add `bib_name: Name As In DBLP` so your papers appear on your character
-   sheet.
+   sheet. An optional `traits:` list adds lines under "Features & traits".
 
    The character sheet is built from the profile file: the role line sets the
    class, "co-supervised with" sets the mentor, "Mitacs" adds a trait, and

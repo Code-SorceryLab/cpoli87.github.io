@@ -11,9 +11,12 @@ profiles:
   # below. `section:` starts a new heading — put it on the first person of a group.
   # Member photos are square 800x800; `image:` is optional.
   # `bib_name:` is the name as it appears in _bibliography/my.bib, when it differs.
+  # `traits:` is an optional list shown under "Features & traits" on the character sheet.
   - align: right
     image: prof_pic.jpg
     content: about_cristiano.md
+    traits:
+      - Likes heavy metal, RPGs, and papers being accepted
     image_circular: false # crops the image to make it circular
 
   - section: Graduate students

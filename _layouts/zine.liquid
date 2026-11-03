@@ -3,14 +3,11 @@
   <head>
     {% include metadata.liquid %}
     <meta name="theme-color" content="#17141f">
-    {% if site.icon.size <= 4 %}
-      <link
-        rel="shortcut icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>"
-      >
-    {% elsif site.icon != blank %}
-      <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url }}">
-    {% endif %}
+    {%- comment -%} Crest icons from logo-code-and-sorcery/round-2 (tools/favicon.py). {%- endcomment -%}
+    <link rel="icon" href="{{ '/assets/brand/favicon.ico' | relative_url }}" sizes="32x32">
+    <link rel="icon" href="{{ '/assets/brand/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ '/assets/brand/apple-touch-icon.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/brand/site.webmanifest' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
     <link rel="alternate" type="application/atom+xml" title="Dispatches" href="{{ '/feed.xml' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">

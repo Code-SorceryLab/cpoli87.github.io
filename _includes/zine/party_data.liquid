@@ -16,6 +16,7 @@
         "img": {{ img | strip | jsonify }},
         "alum": {% if profile.graduated %}true{% else %}false{% endif %},
         "bib": {{ profile.bib_name | jsonify }},
+      "traits": {{ profile.traits | default: empty | jsonify }},
         "md": {{ md | jsonify }},
         "html": {{ md | markdownify | jsonify }}
       }{% unless forloop.last %},{% endunless %}
