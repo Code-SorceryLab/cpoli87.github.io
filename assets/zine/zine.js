@@ -175,8 +175,8 @@
 
   /* ---------- the party ---------- */
   if (dataEl) {
-    // Class and level are just for fun: picked from the member id, so each
-    // person keeps the same ones on every visit. The real role is m.rank.
+    // The class is just for fun: picked from the member id, so each
+    // person keeps the same one on every visit. The real role is m.rank.
     const CLASS_LIST = [
       "Bard",
       "Rogue",
@@ -202,10 +202,7 @@
       for (const ch of s) h = Math.imul(h ^ ch.codePointAt(0), 16777619);
       return h >>> 0;
     };
-    const classOf = (m) => {
-      const h = hash(m.id);
-      return [CLASS_LIST[h % CLASS_LIST.length], 1 + (Math.floor(h / CLASS_LIST.length) % 20)];
-    };
+    const classOf = (m) => CLASS_LIST[hash(m.id) % CLASS_LIST.length];
     const ABIL = ["Code", "Data", "Play", "Lore", "Quill", "Charm"];
     const party = raw.map((p) => {
       const name = p.name;
@@ -248,10 +245,10 @@
         ? `<div class="duo"><img src="${esc(m.img)}" alt="${esc(m.name)}" width="320" height="320" loading="lazy"></div>`
         : `<div class="duo blank"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#crest"/></svg></div>`;
     const card = (m, href) => {
-      const [cl, lv] = classOf(m);
+      const cl = classOf(m);
       return `<a class="card member${m.alum ? " alum" : ""}" href="${href}">${portrait(m)}<h3>${esc(m.name)}</h3><span class="role">${esc(
         m.rank
-      )}</span><span class="cls">${cl} · Lv ${lv}</span><span class="go">Character sheet</span></a>`;
+      )}</span><span class="cls">${cl}</span><span class="go">Character sheet</span></a>`;
     };
 
     const preview = $("#party-preview");
@@ -289,7 +286,7 @@
           return;
         }
         const m = party[i],
-          [cl, lv] = classOf(m),
+          cl = classOf(m),
           sp = spellsOf(m);
         const prev = party[(i - 1 + party.length) % party.length],
           next = party[(i + 1) % party.length];
@@ -319,7 +316,6 @@
               )}</p><span class="lbl">Character name · role</span></div>
               <div class="fields">
                 <div><b>${cl}</b><span class="lbl">Class</span></div>
-                <div><b>${lv}</b><span class="lbl">Level</span></div>
                 <div><b>Code &amp; Sorcery</b><span class="lbl">Guild</span></div>
                 <div><b>${esc(m.joined || "—")}</b><span class="lbl">Joined the party</span></div>
                 <div><b>${m.alum ? '<span class="stamp-alum">Legend</span>' : "Adventuring"}</b><span class="lbl">Status</span></div>
