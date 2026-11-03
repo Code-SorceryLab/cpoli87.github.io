@@ -7,6 +7,7 @@ layout: zine
     <h2 class="lino">The Codex</h2>
     <p>{{ page.intro | default: 'Every publication from the Code &amp; Sorcery Lab and its members.' }}</p>
   </div>
+  {{ content }}
   <div class="controls" hidden>
     <div class="filters" role="group" aria-label="Filter by type">
       <button type="button" class="chip" data-kind="All" aria-pressed="true">All</button>
@@ -24,6 +25,5 @@ layout: zine
     <p>No publications match that search.</p>
     <button class="btn" type="button" id="reset">Clear the search</button>
   </div>
-  {{ content }}
   {% include zine/party_data.liquid %}
 </section>

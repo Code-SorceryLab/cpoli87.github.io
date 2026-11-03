@@ -2164,10 +2164,10 @@ h4 {
   margin-top: 14px;
 }
 
-/* Venn diagram on the cover (assets/img/venn.svg, from the round-2 brand kit). */
+/* Venn diagram on the Codex (assets/img/venn.svg, from the round-2 brand kit). */
 .venn {
-  margin: 18px auto 4px;
-  max-width: 420px;
+  margin: 0 auto 28px;
+  max-width: 440px;
 }
 .venn img {
   display: block;
