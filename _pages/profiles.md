@@ -12,11 +12,17 @@ profiles:
   # Member photos are square 800x800; `image:` is optional.
   # `bib_name:` is the name as it appears in _bibliography/my.bib, when it differs.
   # `traits:` is an optional list shown under "Features & traits" on the character sheet.
+  # `links:` is an optional list of `- name: ...` / `url: ...` shown as "Portals".
   - align: right
     image: prof_pic.jpg
     content: about_cristiano.md
     traits:
       - Likes heavy metal, RPGs, and papers being accepted
+    links:
+      - name: Google Scholar
+        url: https://scholar.google.com/citations?user=B8qnQe0AAAAJ
+      - name: LinkedIn
+        url: https://www.linkedin.com/in/cristiano-politowski
     image_circular: false # crops the image to make it circular
 
   - section: Graduate students

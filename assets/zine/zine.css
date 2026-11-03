@@ -2151,3 +2151,26 @@ h4 {
 .prof li.none {
   list-style: none;
 }
+.portals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+.portals li {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.portals-box {
+  margin-top: 14px;
+}
+
+/* Venn diagram on the cover (assets/img/venn.svg, from the round-2 brand kit). */
+.venn {
+  margin: 18px auto 4px;
+  max-width: 420px;
+}
+.venn img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

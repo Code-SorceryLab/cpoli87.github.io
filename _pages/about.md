@@ -27,4 +27,8 @@ next_issue:
 
 Hi, my name is Cristiano Politowski. I am an Assistant Professor in the Computer Science group of the Faculty of Science at [Ontario Tech University](https://ontariotechu.ca/), in Oshawa, Canada. My research is about how video games are built, tested and kept alive, and how AI can help with each of those steps.
 
-The **Code & Sorcery Lab** works where game development, software engineering and artificial intelligence meet. We build games, break them, and measure what happens: playtesting agents, LLM-driven characters, game engine architecture and large studies of how the game industry really works.
+The **Code & Sorcery Lab** works where game development, software engineering and artificial intelligence meet.
+
+<figure class="venn">
+  <img src="{{ '/assets/img/venn.svg' | relative_url }}" width="1540" height="1470" alt="Venn diagram of software engineering, game development and artificial intelligence. Software engineering and game development overlap in game testing, software engineering and AI in AI for SE, game development and AI in NPCs and PCG; the lab's crest sits where all three meet.">
+</figure>

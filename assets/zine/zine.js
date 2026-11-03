@@ -238,7 +238,7 @@
         .split(";")
         .map(memberOf)
         .filter((x, i, arr) => x && x.id !== m.id && arr.indexOf(x) === i)
-        .map((x) => `<a href="#member-${x.id}">${esc(x.name.split(" ")[0])}</a>`)
+        .map((x) => `<a href="#member-${x.id}">${esc(x.id[0].toUpperCase() + x.id.slice(1))}</a>`)
         .join(", ");
     const portrait = (m) =>
       m.img
@@ -330,7 +330,13 @@
                 <div class="portrait">${portrait(m)}<span class="lbl">Portrait</span></div>
                 <div class="prof"><ul>${
                   m.traits.length ? m.traits.map((t) => `<li>${esc(t)}</li>`).join("") : '<li class="none">—</li>'
-                }</ul><h4>Features &amp; traits</h4></div>
+                }</ul><h4>Features &amp; traits</h4></div>${
+                  Array.isArray(m.links) && m.links.length
+                    ? `<div class="prof portals-box"><ul class="spells portals">${m.links
+                        .map((l) => `<li><a href="${esc(l.url)}" rel="noopener">${esc(l.name)}</a></li>`)
+                        .join("")}</ul><h4>Portals · links</h4></div>`
+                    : ""
+                }
               </div>
               <div class="panels">
                 <div class="panel">${
