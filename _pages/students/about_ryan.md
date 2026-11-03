@@ -1,3 +1,3 @@
 # Ryan Ahlborn
 
-> Undergraduate Honours Researcher · co-supervised with Michael Miljanovic
+> Undergraduate Honours Researcher · started September 2025 · co-supervised with Michael Miljanovic

@@ -1,3 +1,3 @@
 # Sebastian Desaulniers
 
-> Lab assistant
+> Lab assistant · started September 2026
