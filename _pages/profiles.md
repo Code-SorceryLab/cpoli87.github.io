@@ -23,6 +23,7 @@ profiles:
     content: students/about_kevin.md
   - image: al.png
     content: students/about_al.md
+    bib_name: Al Muqshith Mohammed Shifan
   - image: charon.jpeg
     content: students/about_charon.md
   - image: caio.jpeg

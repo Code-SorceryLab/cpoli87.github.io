@@ -96,10 +96,47 @@
     const s = $(".vt-short", c);
     if (s && !s.textContent.trim()) s.textContent = info.short;
   });
+  /* ---------- lab members (from #party-data) ---------- */
+  const dataEl = $("#party-data");
+  let raw = [];
+  if (dataEl) {
+    try {
+      raw = JSON.parse(dataEl.textContent);
+    } catch (e) {
+      raw = [];
+    }
+  }
+  const peopleUrl = (dataEl && dataEl.dataset.people) || "/people/";
+  raw.forEach((p) => {
+    p.name = (p.md.match(/^#\s+(.+)$/m) || [, p.id])[1].trim();
+  });
+  // True when a BibTeX author name refers to member m: an exact match on
+  // bib_name (or the profile name), or the same first name plus a last name
+  // that appears in the member's full name.
+  const sameAuthor = (author, m) => {
+    const target = norm(m.bib || m.name),
+      tokens = target.split(/\s+/),
+      n = norm(author),
+      parts = n.split(/\s+/);
+    return n === target || (parts[0] === tokens[0] && tokens.includes(parts[parts.length - 1]));
+  };
+  const memberOf = (author) => raw.find((m) => sameAuthor(author, m));
+  const memberUrl = (m) => `${peopleUrl}#member-${m.id}`;
+
   const codex = $("#codex-list");
   if (codex) {
     const pubs = $$(".pub", codex);
     pubs.forEach(decoratePub);
+    $$(".au .a", codex).forEach((a) => {
+      const m = memberOf(a.dataset.n);
+      if (!m) return;
+      const link = document.createElement("a");
+      link.className = "a member-link";
+      link.href = memberUrl(m);
+      link.title = `${m.name}: character sheet`;
+      link.innerHTML = a.innerHTML;
+      a.replaceWith(link);
+    });
     const controls = $(".controls");
     controls.hidden = false;
     const q = $("#q"),
@@ -137,18 +174,11 @@
   }
 
   /* ---------- the party ---------- */
-  const dataEl = $("#party-data");
   if (dataEl) {
-    let raw = [];
-    try {
-      raw = JSON.parse(dataEl.textContent);
-    } catch (e) {
-      raw = [];
-    }
     const CLASSES = { prof: ["Archmage", 20], phd: ["Wizard", 3], msc: ["Sorcerer", 2], ug: ["Apprentice", 1], staff: ["Artificer", 1] };
     const ABIL = ["Code", "Data", "Play", "Lore", "Quill", "Charm"];
     const party = raw.map((p) => {
-      const name = (p.md.match(/^#\s+(.+)$/m) || [, p.id])[1].trim();
+      const name = p.name;
       const role = (p.md.match(/^>\s*(.+)$/m) || [, ""])[1].trim();
       let c = "ug";
       if (/professor/i.test(role)) c = "prof";
@@ -170,23 +200,18 @@
       const quest = tmp.innerHTML.replace(/<!--[\s\S]*?-->/g, "").trim();
       return { ...p, name, role, c, rank, joined, traits, quest };
     });
-    const spellsOf = (m) => {
-      const pubs = $$("#party-spells .pub");
-      const target = norm(m.bib || m.name);
-      const first = target.split(" ")[0],
-        tokens = target.split(/\s+/);
-      return pubs
-        .filter((p) =>
-          (p.dataset.authors || "").split(";").some((a) => {
-            const n = norm(a);
-            if (n === target) return true;
-            const parts = n.split(/\s+/),
-              last = parts[parts.length - 1];
-            return parts[0] === first && tokens.includes(last);
-          })
-        )
+    const spellsOf = (m) =>
+      $$("#party-spells .pub")
+        .filter((p) => (p.dataset.authors || "").split(";").some((a) => sameAuthor(a, m)))
         .map((p) => ({ el: p, info: venueInfo(p.dataset.type, p.dataset.venue, p.dataset.abbr) }));
-    };
+    // Other lab members on the same paper, linked to their sheets.
+    const alliesOf = (el, m) =>
+      (el.dataset.authors || "")
+        .split(";")
+        .map(memberOf)
+        .filter((x, i, arr) => x && x.id !== m.id && arr.indexOf(x) === i)
+        .map((x) => `<a href="#member-${x.id}">${esc(x.name.split(" ")[0])}</a>`)
+        .join(", ");
     const portrait = (m) =>
       m.img
         ? `<div class="duo"><img src="${esc(m.img)}" alt="${esc(m.name)}" width="320" height="320" loading="lazy"></div>`
@@ -197,7 +222,6 @@
         m.name
       )}</h3><span class="sub">${esc(m.rank)}</span><span class="go">Character sheet</span></a>`;
     };
-    const peopleUrl = dataEl.dataset.people || "/people/";
 
     const preview = $("#party-preview");
     if (preview) {
@@ -208,7 +232,7 @@
       }
       preview.innerHTML = cur
         .slice(0, +preview.dataset.count || 4)
-        .map((m) => card(m, `${peopleUrl}#member-${m.id}`))
+        .map((m) => card(m, memberUrl(m)))
         .join("");
     }
 
@@ -242,12 +266,12 @@
         const spells = sp.length
           ? `<ul class="spells">${sp
               .slice(0, max)
-              .map(
-                ({ el, info }) =>
-                  `<li><a href="${esc(el.dataset.link || "/publications/#" + el.id)}">${esc(el.dataset.title)}</a><span>${esc(info.short)} · ${esc(
-                    el.dataset.year
-                  )}</span></li>`
-              )
+              .map(({ el, info }) => {
+                const allies = alliesOf(el, m);
+                return `<li><a href="${esc(el.dataset.link || "/publications/#" + el.id)}">${esc(el.dataset.title)}</a><span>${esc(
+                  info.short
+                )} · ${esc(el.dataset.year)}${allies ? ` · with ${allies}` : ""}</span></li>`;
+              })
               .join("")}</ul>${
               sp.length > max ? `<p style="margin-top:8px"><a class="btn" href="/publications/">All ${sp.length} in the codex</a></p>` : ""
             }`
@@ -276,7 +300,7 @@
               <div>
                 <div class="portrait">${portrait(m)}<span class="lbl">Portrait</span></div>
                 <div class="prof"><ul>${
-                  m.traits.length ? m.traits.map((t) => `<li>${esc(t)}</li>`).join("") : "<li>—</li>"
+                  m.traits.length ? m.traits.map((t) => `<li>${esc(t)}</li>`).join("") : '<li class="none">—</li>'
                 }</ul><h4>Features &amp; traits</h4></div>
               </div>
               <div class="panels">

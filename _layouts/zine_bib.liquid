@@ -29,19 +29,27 @@
       {{ entry.title -}}
       {%- if entry.selected == 'true' -%}
         <span class="sel">Selected</span>
+      {%- endif -%}
+      {%- if entry.artifact == 'true' -%}
+        <span class="sel">Artifact evaluated</span>
+      {%- endif -%}
+      {%- if entry.presentation -%}
+        <span class="sel">{{ entry.presentation }}</span>
       {%- endif %}
     </h4>
     <p class="au">
       {%- for a in entry.author_array -%}
-        {%- if site.scholar.last_name contains a.last and site.scholar.first_name contains a.first -%}
-          <mark>
-            {{- a.first }}
-            {{ a.last -}}
-          </mark>
-        {%- else -%}
-          {{ a.first }}
-          {{ a.last }}
-        {%- endif -%}
+        <span class="a" data-n="{{ a.first }} {{ a.last }}">
+          {%- if site.scholar.last_name contains a.last and site.scholar.first_name contains a.first -%}
+            <mark>
+              {{- a.first }}
+              {{ a.last -}}
+            </mark>
+          {%- else -%}
+            {{ a.first }}
+            {{ a.last }}
+          {%- endif -%}
+        </span>
         {%- unless forloop.last -%}, {% endunless -%}
       {%- endfor -%}
     </p>

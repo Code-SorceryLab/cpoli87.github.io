@@ -2124,3 +2124,25 @@ h4 {
   flex: 1 1 220px;
   min-width: 0;
 }
+
+/* Lab members in author lists link to their character sheets. */
+.pub .au a.member-link {
+  color: inherit;
+  text-decoration: underline dotted var(--spot);
+  text-underline-offset: 3px;
+}
+.pub .au a.member-link:hover,
+.pub .au a.member-link:focus-visible {
+  color: var(--spot);
+}
+.spells span a {
+  font-weight: 600;
+  color: inherit;
+  text-decoration: underline dotted;
+}
+.spells span a::after {
+  content: none;
+}
+.prof li.none {
+  list-style: none;
+}

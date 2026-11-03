@@ -288,6 +288,7 @@ filtered_bibtex_keywords:
   [
     abbr,
     abstract,
+    artifact,
     additional_info,
     altmetric,
     annotation,
@@ -301,6 +302,7 @@ filtered_bibtex_keywords:
     html,
     inspirehep_id,
     pdf,
+    presentation,
     poster,
     preview,
     selected,
