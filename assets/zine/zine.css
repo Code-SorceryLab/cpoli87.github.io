@@ -984,16 +984,16 @@ h4 {
   color: var(--bone);
   margin-top: 4px;
 }
-.member .cls {
-  font: 600 11px var(--f-mono);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+.member .role {
+  font: italic 800 15px/1.2 var(--f-strap);
+  letter-spacing: 0.02em;
   color: var(--spot);
 }
-.member .sub {
-  font-size: 14px;
+.member .cls {
+  font: 600 10px var(--f-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--bone-dim);
-  font-style: italic;
 }
 .member.alum .duo {
   background: var(--steel);
@@ -1060,6 +1060,11 @@ h4 {
 }
 .sheet-name h2 {
   font: 400 clamp(34px, 5vw, 52px) / 1 var(--f-mast);
+}
+.sheet-role {
+  margin: 6px 0 4px;
+  font: italic 800 clamp(18px, 2.4vw, 24px) / 1.15 var(--f-strap);
+  color: var(--ink);
 }
 .lbl {
   display: block;
