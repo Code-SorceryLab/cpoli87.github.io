@@ -2,6 +2,8 @@
 
 > Undergraduate Honours Researcher · started September 2025
 
+Now at [Altimetrik](https://www.altimetrik.com/).
+
 <!-- **Start:** September 2025 · **Expected graduation:** May 2026 *(optional)*
 **Email:** saksham.tejpal@ontariotechu.net
 
