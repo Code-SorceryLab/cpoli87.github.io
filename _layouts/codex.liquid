@@ -17,7 +17,7 @@ layout: zine
     <label class="search" for="q">Search<input id="q" type="search" placeholder="title, author, venue…" autocomplete="off"></label>
   </div>
   <div class="codex-list" id="codex-list">
-    {% bibliography --template zine_bib %}
+    {% bibliography --template zine_bib --query @*[hidden!=true] %}
   </div>
   <div class="empty" id="empty" hidden>
     <strong class="lino">The scroll is blank</strong>

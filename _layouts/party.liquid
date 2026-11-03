@@ -25,6 +25,6 @@ layout: zine
   </noscript>
   {% include zine/party_data.liquid %}
   <div id="party-spells" hidden>
-    {% bibliography --template zine_bib --group_by none %}
+    {% bibliography --template zine_bib --group_by none --query @*[hidden!=true] %}
   </div>
 </section>

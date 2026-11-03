@@ -1,3 +1,3 @@
 # Laurent Voisart
 
-> Master's student · co-supervised with Yann-Gaël Guéhéneuc (CSSE, Concordia University)
+> Master's student · started May 2024 · co-supervised with Yann-Gaël Guéhéneuc (CSSE, Concordia University)

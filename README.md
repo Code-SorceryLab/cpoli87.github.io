@@ -140,6 +140,8 @@ papers arrive as a pull request, so most of the time there is nothing to do.
   overwritten.
 - **Featuring a paper:** add `selected = {true}` to show it on the home page
   and mark it "Selected" in the Codex.
+- **Hiding a paper:** add `hidden = {true}`. Keep the entry rather than
+  deleting it, or the DBLP sync will add it back.
 - **Other useful fields:** `pdf`, `code` and `arxiv`.
 - **Author names:** write them exactly as on DBLP, so the same person is
   matched across papers.
