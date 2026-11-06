@@ -58,6 +58,13 @@ profiles:
 
   - content: students/about_aryan.md
 
+  - image: kimberly.jpg
+    content: students/about_kimberly.md
+  - image: meixuan.jpg
+    content: students/about_meixuan.md
+  - image: diana.jpg
+    content: students/about_diana.md
+
   - image: danylo.jpg
     content: students/about_danylo.md
     graduated: true
