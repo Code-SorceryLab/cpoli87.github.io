@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ontario-tech-science-day-2026",
+        },{id: "post-final-project-meeting-in-montréal",
+        
+          title: "Final project meeting in Montréal",
+        
+        description: "The last meeting of our CNPq project on improving software development productivity with language models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/dispatches/2026/cnpq-montreal/";
+          
+        },
+      },{id: "post-ontario-tech-science-day-2026",
         
           title: "Ontario Tech Science Day 2026",
         
