@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-final-project-meeting-in-montréal",
+        },{id: "post-al-and-kevin-present-at-cascon-2026",
+        
+          title: "Al and Kevin present at CASCON 2026",
+        
+        description: "Two posters from the lab at CASCON 2026 — evolved agents as regression playtests, and activation steering for small-model NPCs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/dispatches/2026/cascon-2026/";
+          
+        },
+      },{id: "post-final-project-meeting-in-montréal",
         
           title: "Final project meeting in Montréal",
         
