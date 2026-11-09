@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "Al and Kevin present at CASCON 2026",
         
-        description: "Two posters from the lab at CASCON 2026 — evolved agents as regression playtests, and activation steering for small-model NPCs.",
+        description: "Two posters from the lab at CASCON 2026.",
         section: "Posts",
         handler: () => {
           
