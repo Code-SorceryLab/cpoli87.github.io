@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-al-and-kevin-present-at-cascon-2026",
+        },{id: "post-caio-presents-at-aiide-2026",
+        
+          title: "Caio presents at AIIDE 2026",
+        
+        description: "Caio Varalta presented our human validation study of procedural personas at AIIDE 2026.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/dispatches/2026/aiide-2026/";
+          
+        },
+      },{id: "post-al-and-kevin-present-at-cascon-2026",
         
           title: "Al and Kevin present at CASCON 2026",
         
